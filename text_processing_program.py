@@ -69,7 +69,7 @@ def find_most_similar_sentences(query, paragraphs, word2vec_model, language='spa
 
 if __name__ == '__main__':
     # Leer el contenido completo del archivo .txt
-    with open('data/test.txt', 'r', encoding='utf-8') as file:
+    with open('txt/MANUAL AUDITORIAS_ESP (2).txt', 'r', encoding='utf-8') as file:
         content = file.read()
 
     # Dividir el contenido en párrafos usando dos saltos de línea como delimitador
