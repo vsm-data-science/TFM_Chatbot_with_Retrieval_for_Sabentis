@@ -43,13 +43,16 @@ def clean_and_create_sentences(text):
     sentences = [sent for sent in sentences if not re.search(r"\d{2}\.\d{3}\.\d{2}\.\d{2}", sent)]
 
     # Remove sentences with the format Imagen x:
-    sentences = [sent for sent in sentences if not re.search(r"Imagen \d+:", sent)]
+    sentences = [sent for sent in sentences if not re.search(r"Imagen \d+", sent)]
 
     # Remove sentences with more than 5 dots in a row:
     sentences = [sent for sent in sentences if not re.search(r"\.{5,}", sent)]
 
     # Remove sentences that start with a number and have less than 30 characters
     sentences = [sent for sent in sentences if not re.search(r"^\d", sent) or len(sent) > 30]
+
+    # Remove sentences that start with Manual de usuario: or Manual de usuario
+    sentences = [sent for sent in sentences if not re.search(r"Manual de usuario".lower(), sent.lower())]
 
     for i in range(len(sentences)):
         sentences[i] = sentences[i].replace("\n", " ")
