@@ -50,9 +50,6 @@ def clean_and_create_sentences(text):
 
     # Remove sentences that start with a number and have less than 30 characters
     sentences = [sent for sent in sentences if not re.search(r"^\d", sent) or len(sent) > 30]
-    
-    # Remove sentences with this text Manual de usuario:  Auditorías
-    sentences = [sent for sent in sentences if not re.search(r"Manual de usuario:  Auditorías", sent)]
 
     for i in range(len(sentences)):
         sentences[i] = sentences[i].replace("\n", " ")
