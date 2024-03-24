@@ -1,9 +1,6 @@
 import os
 import fitz  # PyMuPDF
-import spacy
 import re
-
-nlp = spacy.load("en_core_web_sm")
 
 def extract_text_from_pdf(pdf_path):
     # Open the PDF file
@@ -24,34 +21,36 @@ def write_text_to_file(text, output_path):
     with open(output_path, "w") as file:
         file.write(text)
 
+def split_text_into_sentences(text):
+    sentences = text.split("\n \n")
+    return sentences
+
 def clean_and_create_sentences(text):
     # Remove extra spaces and newlines
     text = text.strip()
-    text = text.replace("\n", " ")
     text = text.replace("\t", " ")
     text = text.replace("\r", " ")
 
     # Remove numbers with a + before them
     text = re.sub(r"\+\d+", "", text)
-    
-    # Use spacy to create sentences
-    doc = nlp(text)
-    sentences = [sent.text for sent in doc.sents]
-    
-    # # Remove sentences with less than 5 characters
-    sentences = [sent for sent in sentences if len(sent) > 5]
 
-    # # Remove sentences with any text with this format xx.xxx.xx.xx
+    sentences = split_text_into_sentences(text)
+    
+    # Remove sentences with less than 10 characters
+    sentences = [sent for sent in sentences if len(sent) > 10]
+
+    # Remove sentences with any text with this format xx.xxx.xx.xx
     sentences = [sent for sent in sentences if not re.search(r"\d{2}\.\d{3}\.\d{2}\.\d{2}", sent)]
 
-    # # Remove sentences with the format Imagen x:
+    # Remove sentences with the format Imagen x:
     sentences = [sent for sent in sentences if not re.search(r"Imagen \d+:", sent)]
 
-    # # Remove sentences with more than 5 dots in a row:
+    # Remove sentences with more than 5 dots in a row:
     sentences = [sent for sent in sentences if not re.search(r"\.{5,}", sent)]
 
-    # # Remove sentences with the following text Todos los derechos reservados EASY TECH GLOBAL:
-    sentences = [sent for sent in sentences if not re.search(r"Todos los derechos reservados EASY TECH GLOBAL", sent)]
+    for i in range(len(sentences)):
+        sentences[i] = sentences[i].replace("\n", " ")
+        sentences[i] = sentences[i].strip()
 
     return sentences
 
