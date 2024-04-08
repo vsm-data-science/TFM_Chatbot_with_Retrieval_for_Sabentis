@@ -12,8 +12,8 @@ client = OpenAI()
 class ModelManager:
     def __init__(self, file_processor, pretrained_model_path=None):
         self.models = {
-            "word2vec": Word2VecModel(file_processor.original_paragraphs, file_processor.language),
-            "tfidf": TFIDFModel(file_processor.preprocessed_paragraphs, file_processor.original_paragraphs, file_processor.language),
+            # "word2vec": Word2VecModel(file_processor.original_paragraphs, file_processor.language),
+            # "tfidf": TFIDFModel(file_processor.preprocessed_paragraphs, file_processor.original_paragraphs, file_processor.language),
             "word2vec_tfidf": Word2VecTFIDFModel(file_processor.original_paragraphs,
                                                   file_processor.preprocessed_paragraphs,
                                                   file_processor.language),
