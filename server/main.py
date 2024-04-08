@@ -2,7 +2,7 @@ import os
 from src.models.ModelManager import ModelManager
 import nltk
 from flask import Flask, request, jsonify
-
+from flask_cors import CORS
 
 def download_nltk_packages():
     packages = ['stopwords', 'punkt']
@@ -15,6 +15,7 @@ def download_nltk_packages():
 download_nltk_packages()
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/chat', methods=['POST'])
 def chat():
