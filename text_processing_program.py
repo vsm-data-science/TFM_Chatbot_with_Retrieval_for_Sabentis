@@ -11,6 +11,10 @@ from sklearn.metrics.pairwise import linear_kernel
 import nltk
 from transformers import BertTokenizer, BertModel
 import torch
+from openai import OpenAI
+from flask import Flask, request, jsonify
+
+client = OpenAI()
 
 def download_nltk_packages():
     packages = ['stopwords', 'punkt']
@@ -22,12 +26,14 @@ def download_nltk_packages():
 
 download_nltk_packages()
 
-def clean_and_tokenize(text, language):
-    text = unidecode.unidecode(text.lower())
-    stop_words = set(stopwords.words(language))
-    text = re.sub(r'[^a-zA-Z\s]', '', text, re.I | re.A)
-    tokens = word_tokenize(text, language=language)
-    return [token for token in tokens if token not in stop_words]
+class TextUtils:
+    @staticmethod
+    def clean_and_tokenize(text, language):
+        text = unidecode.unidecode(text.lower())
+        stop_words = set(stopwords.words(language))
+        text = re.sub(r'[^a-zA-Z\s]', '', text, re.I | re.A)
+        tokens = word_tokenize(text, language=language)
+        return [token for token in tokens if token not in stop_words]
 
 
 class FileProcessor:
@@ -46,7 +52,7 @@ class FileProcessor:
             content = file.read()
         paragraphs = content.split('\n\n')
         original_paragraphs = [para.strip() for para in paragraphs if para.strip() != '']
-        preprocessed_paragraphs = [' '.join(clean_and_tokenize(para, self.language)) for para in original_paragraphs]
+        preprocessed_paragraphs = [' '.join(TextUtils.clean_and_tokenize(para, self.language)) for para in original_paragraphs]
         return original_paragraphs, preprocessed_paragraphs
 
 class Model:
@@ -70,11 +76,11 @@ class Word2VecModel(Model):
         self.model = self._train_model()
 
     def _train_model(self):
-        sentences = [clean_and_tokenize(paragraph, self.language) for paragraph in self.original_paragraphs]
+        sentences = [TextUtils.clean_and_tokenize(paragraph, self.language) for paragraph in self.original_paragraphs]
         return Word2Vec(sentences, vector_size=100, window=5, min_count=1, workers=4)
 
     def _get_sentence_embedding(self, sentence):
-        words = clean_and_tokenize(sentence, self.language)
+        words = TextUtils.clean_and_tokenize(sentence, self.language)
         word_vectors = [self.model.wv[word] for word in words if word in self.model.wv]
         if len(word_vectors) == 0:
             return np.zeros(self.model.vector_size)
@@ -82,7 +88,7 @@ class Word2VecModel(Model):
 
     def predict(self, query, similarity_threshold):
         query_embedding = self._get_sentence_embedding(query)
-        similarities = [(self._cosine_similarity(query_embedding, self._get_sentence_embedding(' '.join(clean_and_tokenize(para, self.language)))), para) for para in self.original_paragraphs]
+        similarities = [(self._cosine_similarity(query_embedding, self._get_sentence_embedding(' '.join(TextUtils.clean_and_tokenize(para, self.language)))), para) for para in self.original_paragraphs]
         filtered_and_sorted = sorted([sim for sim in similarities if sim[0] > similarity_threshold], key=lambda x: x[0], reverse=True)
         return filtered_and_sorted
 
@@ -121,7 +127,7 @@ class Word2VecTFIDFModel(Model):
     def predict(self, query, similarity_threshold):
         query_embedding_w2v = self.word2vec_model._get_sentence_embedding(query)
         query_vec_tfidf = TfidfVectorizer(max_features=10000, stop_words=stopwords.words(self.language),
-                                          vocabulary=self.tfidf_model.feature_names).fit_transform([' '.join(clean_and_tokenize(query, self.language))])
+                                          vocabulary=self.tfidf_model.feature_names).fit_transform([' '.join(TextUtils.clean_and_tokenize(query, self.language))])
         similarities = []
         for i, paragraph in enumerate(self.original_paragraphs):
             paragraph_embedding_w2v = self.word2vec_model._get_sentence_embedding(paragraph)
@@ -175,17 +181,16 @@ class PretrainedModel(Model):
 
     def predict(self, query, similarity_threshold):
         query_embedding = self._get_sentence_embedding_pretrained(query)
-        similarities = [(self._cosine_similarity(query_embedding, self._get_sentence_embedding_pretrained(' '.join(clean_and_tokenize(para, self.language)))), para) for para in self.original_paragraphs]
+        similarities = [(self._cosine_similarity(query_embedding, self._get_sentence_embedding_pretrained(' '.join(TextUtils.clean_and_tokenize(para, self.language)))), para) for para in self.original_paragraphs]
         filtered_and_sorted = sorted([sim for sim in similarities if sim[0] > similarity_threshold], key=lambda x: x[0], reverse=True)
         return filtered_and_sorted
 
     def _get_sentence_embedding_pretrained(self, sentence):
-        words = clean_and_tokenize(sentence, self.language)
+        words = TextUtils.clean_and_tokenize(sentence, self.language)
         word_vectors = [self.model[word] for word in words if word in self.model]
         if len(word_vectors) == 0:
             return np.zeros(self.model.vector_size)
         return np.mean(word_vectors, axis=0)
-
 
 class ModelManager:
     def __init__(self, file_processor, pretrained_model_path=None):
@@ -201,48 +206,80 @@ class ModelManager:
         if pretrained_model_path and os.path.exists(pretrained_model_path):
             self.models["pretrained"] = PretrainedModel(file_processor.original_paragraphs, file_processor.language, pretrained_model_path)
 
-    def find_most_similar_sentences(self, query, model_type='todos', similarity_threshold=0.5):
-        results = {}
-        if model_type == 'todos':
-            for name, model in self.models.items():
-                try:
-                    model_results = model.predict(query, similarity_threshold)
-                    if model_results:
-                        results[name] = model_results
-                except Exception as e:
-                    print(f"Error al procesar el modelo {name}: {e}")
-        elif model_type in self.models:
+    def find_most_similar_sentences(self, query, similarity_threshold=0.55):
+        results = []
+        for name, model in self.models.items():
             try:
-                model_results = self.models[model_type].predict(query, similarity_threshold)
+                model_results = model.predict(query, similarity_threshold)
                 if model_results:
-                    results[model_type] = model_results
+                    results.extend(model_results[:5])
             except Exception as e:
-                print(f"Error al procesar el modelo {model_type}: {e}")
-        else:
-            print(f"Modelo '{model_type}' no soportado o no tiene resultados.")
+                print(f"Error al procesar el modelo {name}: {e}")
 
         return results
+    
+    @staticmethod
+    def find_most_similar_dictionary(query):
+        pretrained_model_path = 'sbw_vectors.bin'  
+        txt_directory = 'txt'
 
+        highest_similarity_score = 0.0
+        file_with_highest_similarity = None
+        results_with_high_similarity = []
+
+        for filename in os.listdir(txt_directory):
+            if filename.endswith('.txt'):
+                filepath = os.path.join(txt_directory, filename)
+                file_processor = FileProcessor(filepath, 'spanish')
+                model_manager = ModelManager(file_processor, pretrained_model_path)
+                similarities = model_manager.find_most_similar_sentences(query)
+                paragraphs = [paragraph for _, paragraph in similarities]
+
+                for similarity, _ in similarities:
+                    if similarity > highest_similarity_score:
+                        highest_similarity_score = similarity
+                        file_with_highest_similarity = filename
+                        results_with_high_similarity = paragraphs
+
+        return file_with_highest_similarity, results_with_high_similarity
+    
+    @staticmethod
+    def get_chat_gpt_answer(file, texts, query):
+        all_texts = ", ".join(texts)
+        completion = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages= [{"role": "system", "content": 
+                        f"""
+                        Eres un asistente de la plataforma Sabentis, que ayuda a los usuarios a encontrar información sobre la seguridad y salud en el trabajo.
+                        Siempre que un usuario haga una pregunta te voy a pasar algunos textos que vienen desde sus manuales para ayudarte a tener un poco mas de contexto.
+                        El siguiente texto es una introduccion a la plataforma:
+                        Bienvenido a Sabentis,
+                        ¿Qué es Sabentis? Es un software de gestión para la seguridad y salud en el trabajo, que permite automatizar, notificar y centralizar toda la información del SG-SST de la organización. La plataforma sigue las directrices de la ISO 45001 y de la Organización Internacional del Trabajo (OIT) y ofrece una experiencia de usuario completa. 
+                        Ventajas de utilizar Sabentis. Proporciona una intuitiva experiencia al usuario con tecnología avanzada para una gestión de la SST eficaz, segura y adaptable. Sabentis está impulsada por las últimas tecnologías de programación, que lo convierten en un sistema hiperversátil que se adapta a todo tipo de dispositivos. Además, automatiza tareas repetitivas, ahorrando tiempo y recursos y mejora la comunicación entre los trabajadores y la empresa mediante sistemas de alerta y notificaciones.
+                        Recuerda siempre decirle al usuario el nombre del archivo del que estas extrayendo la información y el contenido de este.
+                        En este caso es {file} y los textos son: {all_texts}
+                        """
+                        },
+                        {"role": "user", "content": query}
+                    ]
+        )
+        return completion.choices[0].message.content
+
+app = Flask(__name__)
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    data = request.get_json()
+    query = data['query']
+    
+    file, results = ModelManager.find_most_similar_dictionary(query)
+    chat_gpt_answer = ModelManager.get_chat_gpt_answer(file, results, query)
+    
+    return jsonify({
+        'chat_gpt_answer': chat_gpt_answer,
+        'file': file,
+        'results': results
+    })
 
 if __name__ == '__main__':
-    filepath = 'txt/MANUAL AUDITORIAS_ESP (2).txt'  
-    pretrained_model_path = 'sbw_vectors.bin'  
-
-    file_processor = FileProcessor(filepath, 'spanish')
-    model_manager = ModelManager(file_processor, pretrained_model_path)
-
-    similarity_threshold = float(input("Introduce el umbral de similitud mínimo (ej. 0.5): "))
-
-    while True:
-        query = input("Introduce tu consulta (escribe 'salir' para terminar): ")
-        if query.lower() == 'salir':
-            break
-
-        model_type = input("Introduce el tipo de modelo ('word2vec', 'tfidf', 'word2vec_tfidf', 'pretrained', 'bert', 'todos'): ").lower()
-
-        results = model_manager.find_most_similar_sentences(query, model_type, similarity_threshold)
-        for model, similarities in results.items():
-            print(f"\nResultados usando {model.upper()}:")
-            for similarity, paragraph in similarities:
-                print(f"'{paragraph}'\nCon una similitud de {similarity}\n")
-        print("-----------------------------------------------------")
+    app.run()
