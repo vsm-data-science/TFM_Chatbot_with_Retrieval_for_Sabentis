@@ -3,3 +3,4 @@ txt/*
 .venv/
 .env
 __pycache__/*
+sbw_vectors.bin
