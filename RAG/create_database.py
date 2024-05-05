@@ -24,7 +24,8 @@ def load_documents():
 
 def split_text(documents: list[Document]):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=800,
+        # Teniendo en cuenta que la extensión media de parágrafos es de 346 carácteres eliminando los titulos, elegimos el equivalente a 2 paragrafos.
+        chunk_size=700,
         chunk_overlap=400,
         length_function=len,
         add_start_index=True,
@@ -42,18 +43,6 @@ def save_to_chroma(chunks: list[Document]):
     )
     db.persist()
     print(f"Saved {len(chunks)} chunks to {CHROMA_PATH}")
-
-    # Intentar recuperar un documento para verificación
-    test_query = "24 EVALUACIÓN DE ASPECTOS LEGALES"
-    results = db.similarity_search(test_query, k=1)
-    print("Resultados:", results)  # Imprime la estructura completa de los resultados para verificar
-    if results:
-        print("Verificación del contenido guardado exitosamente:")
-        for result in results:
-            doc = result  # El resultado es un Documento directamente
-            print(f"Contenido del documento: {doc.page_content[:100]}")
-    else:
-        print("No se encontraron documentos durante la verificación.")
 
 if __name__ == "__main__":
     main()
