@@ -14,9 +14,9 @@ class ModelManager:
         self.models = {
             # "word2vec": Word2VecModel(file_processor.original_paragraphs, file_processor.language),
             # "tfidf": TFIDFModel(file_processor.preprocessed_paragraphs, file_processor.original_paragraphs, file_processor.language),
-            "word2vec_tfidf": Word2VecTFIDFModel(file_processor.original_paragraphs,
-                                                  file_processor.preprocessed_paragraphs,
-                                                  file_processor.language),
+            # "word2vec_tfidf": Word2VecTFIDFModel(file_processor.original_paragraphs,
+            #                                       file_processor.preprocessed_paragraphs,
+            #                                       file_processor.language),
             "bert": BERTModel(file_processor.original_paragraphs, file_processor.language)
         }
 
@@ -35,20 +35,21 @@ class ModelManager:
 
         return results
     
+    # TODO: Initialize the model in a different function
     @staticmethod
     def find_most_similar_dictionary(query):
-        pretrained_model_path = 'sbw_vectors.bin'  
-        txt_directory = 'txt'
-
         highest_similarity_score = 0.0
         file_with_highest_similarity = None
         results_with_high_similarity = []
 
+        pretrained_model_path = 'sbw_vectors.bin'  
+        txt_directory = 'txt'
         for filename in os.listdir(txt_directory):
             if filename.endswith('.txt'):
                 filepath = os.path.join(txt_directory, filename)
                 file_processor = FileProcessor(filepath, 'spanish')
                 model_manager = ModelManager(file_processor, pretrained_model_path)
+
                 similarities = model_manager.find_most_similar_sentences(query)
                 paragraphs = [paragraph for _, paragraph in similarities]
 

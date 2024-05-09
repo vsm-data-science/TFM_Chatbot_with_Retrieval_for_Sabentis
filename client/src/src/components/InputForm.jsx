@@ -33,6 +33,8 @@ export function InputForm() {
       { author: AUTHOR_TYPES.BOT, body: responseData["chat_gpt_answer"] },
     ]);
     setIsLoading(false);
+
+    // TODO: Add also a message with file name - link to the file.
   };
 
   return (
