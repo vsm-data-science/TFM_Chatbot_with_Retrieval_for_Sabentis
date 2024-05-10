@@ -24,7 +24,6 @@ def load_documents():
 
 def split_text(documents: list[Document]):
     text_splitter = RecursiveCharacterTextSplitter(
-        # Teniendo en cuenta que la extensión media de parágrafos es de 346 carácteres eliminando los titulos, elegimos el equivalente a 2 paragrafos.
         chunk_size=700,
         chunk_overlap=400,
         length_function=len,
@@ -46,3 +45,4 @@ def save_to_chroma(chunks: list[Document]):
 
 if __name__ == "__main__":
     main()
+    
