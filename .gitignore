@@ -6,3 +6,5 @@ __pycache__/*
 sbw_vectors.bin
 *.bin
 *.pyc
+*.npy
+*.model
