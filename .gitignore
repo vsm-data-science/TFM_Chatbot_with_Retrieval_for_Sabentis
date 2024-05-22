@@ -8,3 +8,4 @@ sbw_vectors.bin
 *.pyc
 *.npy
 *.model
+*.sqlite3
