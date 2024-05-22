@@ -1,92 +1,145 @@
 Versión  Fecha  Comentarios  Autor  1.0  29/09/2022  Redacción  Núria Zaragoza
+
 Sabentis es la nueva plataforma de gestión especializada en el ámbito de Seguridad y Salud  en el Trabajo adaptada a las nuevas tecnologías y a los nuevos modelos de gestión de la  prevención.   La plataforma cuenta con distintos tipos de auditorías objetivas, entre las que figuran la  evaluación de Estándares Internacionales (ISO) y la Metodología 5S, que responden al  conjunto de normas, requisitos y procedimiento que reflejan la imagen del sistema de  prevención de riesgos laborales de las
+
 Trabajo adaptada a las nuevas tecnologías y a los nuevos modelos de gestión de la  prevención.   La plataforma cuenta con distintos tipos de auditorías objetivas, entre las que figuran la  evaluación de Estándares Internacionales (ISO) y la Metodología 5S, que responden al  conjunto de normas, requisitos y procedimiento que reflejan la imagen del sistema de  prevención de riesgos laborales de las empresas.
+
 El usuario puede acceder al módulo de Auditorías desde:  •  La entrada del menú lateral de la plataforma.  •  Desde el cardboard “Auditorías” del panel principal. Se requiere empresa en  contexto.
 
 5  •  Diagnósticos ISO.  •  Metodología 5S.  •  Planificación y ejecución de medidas.  •  Comparativa de estudios.  Además, se visualiza un dashboard que contiene datos estadísticos. Las gráficas se pueden  descargar y muestran la siguiente información:
+
 Gráfica  Descripción  No conformidades identificadas  que no cumplen vs cumplen  Gráfica circular que indica el cumplimiento de las no conformidades  identificadas.  Medidas por estado  Gráfica de datos circular que determina el número de medidas por  estado de gestión.  Vencimiento de medidas  Gráfica de líneas con vencimiento de fechas de medidas por 6 meses,  un área para cada tipo de vencimiento (aprobación, validación,  implementación, verificación, etcétera).
+
 El usuario accede al cardboard “Diagnósticos ISO” y visualiza una pantalla con el conjunto de  estándares con reconocimiento internacional que tiene el objetivo de ayudar a las empresas  a establecer unos niveles de homogeneidad en relación con la gestión, prestación de  servicios y desarrollo de productos en la industria.   •  ISO 45001: Sistemas de gestión de SST.  •  ISO 14001: Sistemas de gestión del medio ambiente.  •  ISO 9001: Sistemas de gestión de calidad.  •  ISO 39001: Sistemas de
+
 con reconocimiento internacional que tiene el objetivo de ayudar a las empresas  a establecer unos niveles de homogeneidad en relación con la gestión, prestación de  servicios y desarrollo de productos en la industria.   •  ISO 45001: Sistemas de gestión de SST.  •  ISO 14001: Sistemas de gestión del medio ambiente.  •  ISO 9001: Sistemas de gestión de calidad.  •  ISO 39001: Sistemas de gestión de la seguridad vial.  •  ISO 37001: Sistemas de gestión antisoborno.  •  ISO 22301: Sistemas de
+
 niveles de homogeneidad en relación con la gestión, prestación de  servicios y desarrollo de productos en la industria.   •  ISO 45001: Sistemas de gestión de SST.  •  ISO 14001: Sistemas de gestión del medio ambiente.  •  ISO 9001: Sistemas de gestión de calidad.  •  ISO 39001: Sistemas de gestión de la seguridad vial.  •  ISO 37001: Sistemas de gestión antisoborno.  •  ISO 22301: Sistemas de gestión de continuidad de negocio.  •  ISO 26000: Guía de responsabilidad social.  •  ISO 50001:
+
 en la industria.   •  ISO 45001: Sistemas de gestión de SST.  •  ISO 14001: Sistemas de gestión del medio ambiente.  •  ISO 9001: Sistemas de gestión de calidad.  •  ISO 39001: Sistemas de gestión de la seguridad vial.  •  ISO 37001: Sistemas de gestión antisoborno.  •  ISO 22301: Sistemas de gestión de continuidad de negocio.  •  ISO 26000: Guía de responsabilidad social.  •  ISO 50001: Sistemas de gestión de la energía.
+
 Desde el listado de estudios de las ISO se pueden crear nuevos estudios accediendo desde el  botón “Nueva evaluación”. Los campos del formulario marcados con * son de carácter  obligatorio y en caso de que no se completen no es posible crear/editar el registro de  evaluación. En el formulario se han de seleccionar los cuestionarios que se quieren evaluar.  Por defecto aparecen todos marcados pero se puede realizar una selección concreta con la  finalidad de hacer estudios parciales o más
+
 botón “Nueva evaluación”. Los campos del formulario marcados con * son de carácter  obligatorio y en caso de que no se completen no es posible crear/editar el registro de  evaluación. En el formulario se han de seleccionar los cuestionarios que se quieren evaluar.  Por defecto aparecen todos marcados pero se puede realizar una selección concreta con la  finalidad de hacer estudios parciales o más específicos. Solo se podrá crear un estudio nuevo  cuando no exista otro en estado vigente o
+
 y en caso de que no se completen no es posible crear/editar el registro de  evaluación. En el formulario se han de seleccionar los cuestionarios que se quieren evaluar.  Por defecto aparecen todos marcados pero se puede realizar una selección concreta con la  finalidad de hacer estudios parciales o más específicos. Solo se podrá crear un estudio nuevo  cuando no exista otro en estado vigente o abierto. En ese caso la plataforma mostrará un  mensaje indicando que no se puede crear el estudio.
+
 Una vez creado el estudio en la pestaña “Datos de la evaluación de la normativa” se habilita  el botón “Eliminar evaluación de la normativa” el cual permite eliminar el estudio desde la  ficha de datos. Desde el listado también se puede eliminar el estudio. Adicionalmente, se  habilitan las pestañas: Evaluación de aspectos legales, Plan de acción, Gráfica de resultados,  Resumen, Generar documentación y Documentos (esta pestaña se habilita al cerrar la  evaluación).
+
 EVALUACIÓN DE ASPECTOS LEGALES:
+
 La pestaña evaluación de aspectos legales permite al usuario evaluar los cuestionarios  aplicables a la evaluación. Aparecerán aquellos cuestionarios que el usuario ha seleccionado  previamente en la pestaña “Datos de la evaluación de la normativa”, con la finalidad de  hacer estudios parciales o más específicos. Para completar la evaluación de aspectos legales,  debajo de cada ítem de estándar se dispone de las opciones de respuesta: Cumple/ No  cumple/ No aplica.
+
 Junto a las variables de respuesta se encuentra el vínculo “ver más” que habilita una ventana  lateral que contiene información asociada a la cuestión seleccionada.
 
 La opción “Añadir archivos” se habilita conforme se va completando la evaluación y permite  cargar por pregunta hasta 5 archivos como evidencia.
+
 Esta pantalla cuenta con una barra que muestra el porcentaje de avance de la evaluación de  aspectos legales que se actualiza conforme se guardan los datos. Se puede descargar y se  permiten guardados parciales lo que significa que se puede salir de la funcionalidad, aunque  no se haya finalizado la evaluación, sin perder el avance previamente guardado.
+
 13  Una vez se han evaluado la totalidad de ítems de estándar, en la pantalla se sustituye el  botón “Guardar” por el botón “Finalizar evaluación” que permite guardar las respuestas,  además de bloquear el cuestionario con las respuestas definidas.
+
 Generalmente, según la configuración establecida, los ítems de la evaluación marcados con la  opción “No cumple”, generan No conformidades, las cuales se visualizan en la pestaña “Plan  de acción”. Estas se visualizan solo cuando se ha finalizado la evaluación; cuando se realiza
 
 14  guardado parciales no se mostrarán las no conformidades independientemente de que la  respuesta haya sido “no cumple”.
 
 PLAN DE ACCIÓN
+
 PLAN DE ACCIÓN
 
 En esta pestaña se muestra el listado de las No conformidades resultado de la evaluación de  aspectos legales previamente finalizada: los ítems de estándar marcados con la respuesta  “No cumple” en la pestaña previa. Este listado cuenta con las opciones de búsqueda, añadir  filtros, configurar columnas, paginado, botón Volver y la acción editar que redirige a la ficha  de la No conformidad.
+
 En la ficha de No conformidad se muestran dos apartados:  •  Datos de la no conformidad: Muestra los datos referentes a la No conformidad, el  único campo que se puede editar en este apartado es “Cumple” que, por defecto, se  muestra marcado como “No cumple”. Este campo editable solo se podrá marcar  como “Cumple” cuando se hayan implementado las medidas asociadas a la No  conformidad.
+
 •  Medidas correctivas: En este apartado se muestran las medidas correctivas añadidas  por el usuario o configuradas de manera automática y además permite realizar la  gestión de las medidas hasta llegar a estado Cerrada. Los campos del formulario  marcados con * son de carácter obligatorio. En caso de no completarlos no se  permite añadir la medida. (Ver Manual gestión de medidas).
 
 GRÁFICA DE RESULTADOS
+
 GRÁFICA DE RESULTADOS
 
 En la pestaña “Gráficas de resultados” se muestran dos tipos de gráficas. La primera precisa  los resultados de porcentaje de cumplimiento por estándar mientras que la segunda  referencia el porcentaje de cumplimiento por ciclo.  Las gráficas en la parte superior disponen de componentes transversales a nivel de la  plataforma que permiten al usuario realizar las siguientes acciones:
+
 17  •  Refrescar: Herramienta que permite actualizar las gráficas.  •  Descargar imagen: Permite descargar la información visualizada en las gráficas.  •  Exportar a hoja de cálculo: Permite descargar la información en una hoja de cálculo.
+
 En esta pestaña se muestra una síntesis de la información correspondiente al proceso de  evaluación de aspectos legales del estudio. En esta pestaña se puede cerrar la evaluación a  través del botón "Cerrar evaluación" el cual se habilita únicamente cuando el usuario ha  establecido, al menos, una medida correctiva para cada No conformidad.
 
 GENERAR DOCUMENTACIÓN
+
 La pestaña generar documentación se habilita una vez se ha cerrado el estudio en la pestaña  resumen. En esta pantalla se puede generar el informe de la evaluación de la normativa en  formato PDF además de poder adjuntar otros archivos en caso de ser necesario. El informe  de evaluación se puede generar de forma ilimitada.  También se puede descargar el informe clicando directamente en el nombre de la  autoevaluación (link azul). Este listado cuenta con las opciones de búsqueda, añadir filtros,
+
 En esta pantalla se puede generar el informe de la evaluación de la normativa en  formato PDF además de poder adjuntar otros archivos en caso de ser necesario. El informe  de evaluación se puede generar de forma ilimitada.  También se puede descargar el informe clicando directamente en el nombre de la  autoevaluación (link azul). Este listado cuenta con las opciones de búsqueda, añadir filtros,  configurar columnas, paginado y el botón Guardar.
+
 La pestaña Documentos también se habilita una vez se ha cerrado el estudio en la pestaña  resumen y muestra en pantalla el informe de la evaluación.
+
 El usuario accede al cardboard “Metodología 5S” y visualiza el listado con todas las auditorías  realizadas con la Metodología 5S. Es una evaluación basada en 5 principios para facilitar las  dinámicas de trabajo mejorando aspectos como: el uso de los espacios de trabajo, la  organización, la higiene, las normas y las dinámicas de convivencia dentro de las empresas.
+
 Estas evaluaciones pueden estar en estado:  •  Abierto: Indica que el estudio no ha sido cerrado debido a que no se han evaluado la  totalidad de ítems de estándar.  •  Cuestionario finalizado: Indica que se han respondido la totalidad de ítems de  estándar a evaluar, pero el estudio aún no ha sido cerrado.  •  Vigente: Indica que el estudio se ha cerrado y aún no ha llegado a la fecha de  expiración.  •  Expirado: Se cierra la evaluación o se expira desde el listado.  Este listado cuenta con
+
 a que no se han evaluado la  totalidad de ítems de estándar.  •  Cuestionario finalizado: Indica que se han respondido la totalidad de ítems de  estándar a evaluar, pero el estudio aún no ha sido cerrado.  •  Vigente: Indica que el estudio se ha cerrado y aún no ha llegado a la fecha de  expiración.  •  Expirado: Se cierra la evaluación o se expira desde el listado.  Este listado cuenta con las opciones: buscador, añadir filtros, descargar listado, paginado,  botón Nueva evaluación que redirige
+
 se han respondido la totalidad de ítems de  estándar a evaluar, pero el estudio aún no ha sido cerrado.  •  Vigente: Indica que el estudio se ha cerrado y aún no ha llegado a la fecha de  expiración.  •  Expirado: Se cierra la evaluación o se expira desde el listado.  Este listado cuenta con las opciones: buscador, añadir filtros, descargar listado, paginado,  botón Nueva evaluación que redirige al formulario de creación de evaluaciones, y las  acciones:  •  Datos del estudio: Redirige a la
+
 •  Vigente: Indica que el estudio se ha cerrado y aún no ha llegado a la fecha de  expiración.  •  Expirado: Se cierra la evaluación o se expira desde el listado.  Este listado cuenta con las opciones: buscador, añadir filtros, descargar listado, paginado,  botón Nueva evaluación que redirige al formulario de creación de evaluaciones, y las  acciones:  •  Datos del estudio: Redirige a la ficha del estudio.  •  Ir a la evaluación: Redirige a la pestaña Evaluación de aspectos legales.  •  Ir a
+
 Expirado: Se cierra la evaluación o se expira desde el listado.  Este listado cuenta con las opciones: buscador, añadir filtros, descargar listado, paginado,  botón Nueva evaluación que redirige al formulario de creación de evaluaciones, y las  acciones:  •  Datos del estudio: Redirige a la ficha del estudio.  •  Ir a la evaluación: Redirige a la pestaña Evaluación de aspectos legales.  •  Ir a plan de acción: Redirige a la pestaña “Plan de acción”.  •  Expirar estudio: Cambia el estado del
+
 buscador, añadir filtros, descargar listado, paginado,  botón Nueva evaluación que redirige al formulario de creación de evaluaciones, y las  acciones:  •  Datos del estudio: Redirige a la ficha del estudio.  •  Ir a la evaluación: Redirige a la pestaña Evaluación de aspectos legales.  •  Ir a plan de acción: Redirige a la pestaña “Plan de acción”.  •  Expirar estudio: Cambia el estado del estudio de Abierto/Vigente a Expirado (Si el  estudio se expira, esta acción ya no se muestra).  •
+
 formulario de creación de evaluaciones, y las  acciones:  •  Datos del estudio: Redirige a la ficha del estudio.  •  Ir a la evaluación: Redirige a la pestaña Evaluación de aspectos legales.  •  Ir a plan de acción: Redirige a la pestaña “Plan de acción”.  •  Expirar estudio: Cambia el estado del estudio de Abierto/Vigente a Expirado (Si el  estudio se expira, esta acción ya no se muestra).  •  Eliminar evaluación: Permite eliminar el estudio.
+
 22  Desde el listado de estudios de la Metodología 5S es posible crear nuevos estudios  accediendo desde el botón “Nueva evaluación”. Los campos del formulario marcados con *  son de carácter obligatorio por lo que si no se complementan no se permite crear/editar el  registro de evaluación. En el formulario se han de seleccionar los cuestionarios a evaluar -por  defecto aparecen todos marcados- aunque se puede escoger cuáles se quiere evaluar y  cuáles no para hacer estudios parciales o más
+
 desde el botón “Nueva evaluación”. Los campos del formulario marcados con *  son de carácter obligatorio por lo que si no se complementan no se permite crear/editar el  registro de evaluación. En el formulario se han de seleccionar los cuestionarios a evaluar -por  defecto aparecen todos marcados- aunque se puede escoger cuáles se quiere evaluar y  cuáles no para hacer estudios parciales o más específicos. Solo se podrá crear estudios  nuevos cuando no exista otro en estado vigente o abierto.
+
 por lo que si no se complementan no se permite crear/editar el  registro de evaluación. En el formulario se han de seleccionar los cuestionarios a evaluar -por  defecto aparecen todos marcados- aunque se puede escoger cuáles se quiere evaluar y  cuáles no para hacer estudios parciales o más específicos. Solo se podrá crear estudios  nuevos cuando no exista otro en estado vigente o abierto. En ese caso la plataforma  mostrará un mensaje indicando que no se puede crear el estudio.
+
 Una vez creado el estudio en la pestaña “Datos de la evaluación de la normativa” se habilita  el botón “Eliminar evaluación de la normativa” el cual permite eliminar el estudio desde la  ficha de datos. Desde el listado también se puede eliminar el estudio. Adicionalmente, se  habilitan las pestañas: Evaluación de aspectos legales, Plan de acción, Gráfica de resultados,  Resumen, Generar documentación y Documentos. (Esta pestaña se habilita al cerrar la  evaluación).
+
 24  EVALUACIÓN DE ASPECTOS LEGALES
 
 La pestaña evaluación de aspectos legales permite al usuario evaluar los cuestionarios  aplicables. Aparecerán aquellos que se han seleccionado previamente en la pestaña “Datos  de la evaluación de la normativa”.  Para completar la evaluación de aspectos legales, debajo  de cada ítem de estándar se dispone de un campo que dispone las opciones de respuesta:  Cumple/ No cumple/ No aplica.
+
 Junto a las variables de respuesta se encuentra el vínculo “ver más” que habilita una ventana  lateral que contiene información asociada al ítem de estándar seleccionado.
 
 La opción “Añadir archivos” se habilita conforme se va completando la evaluación y permite  cargar, por pregunta, hasta 5 archivos como evidencia.
+
 La opción “Añadir archivos” se habilita conforme se va completando la evaluación y permite  cargar, por pregunta, hasta 5 archivos como evidencia.
 
 Esta pantalla cuenta con una barra que muestra el porcentaje de avance de la evaluación de  aspectos legales. Se actualiza conforme se guardan los datos y se puede descargar. En esta
+
 Esta pantalla cuenta con una barra que muestra el porcentaje de avance de la evaluación de  aspectos legales. Se actualiza conforme se guardan los datos y se puede descargar. En esta
 
 26  pantalla se permiten guardados parciales lo que significa que se puede salir de la  funcionalidad, aunque no se haya finalizado la evaluación, sin perder el avance previamente  guardado.
+
 26  pantalla se permiten guardados parciales lo que significa que se puede salir de la  funcionalidad, aunque no se haya finalizado la evaluación, sin perder el avance previamente  guardado.
 
 Una vez se ha evaluado la totalidad de ítems de estándar, en la pantalla se sustituye el botón  “Guardar” por el botón “Finalizar evaluación” que permite guardar las respuestas además de  bloquear el cuestionario con las respuestas definidas.
+
 Generalmente, según la configuración establecida, los ítems de la evaluación marcados con la  opción “No cumple”, generan No conformidades las cuales se visualizan en la pestaña “Plan  de acción”. Estas se visualizan solo cuando se ha finalizado la evaluación. Cuando se guardan  parciales no se mostrarán las no conformidades independientemente de que la respuesta  haya sido “No cumple”.
 
 PLAN DE ACCIÓN
+
 PLAN DE ACCIÓN
 
 En esta pestaña se muestra el listado de las No conformidades resultado de la evaluación de  aspectos legales finalizada -los ítems de estándar marcados como “No cumple” en la pestaña  previa-. Este listado cuenta con las opciones de búsqueda, añadir filtros, configurar  columnas, paginado, botón Volver y la acción editar que redirige a la ficha de la No  conformidad.
+
 En la ficha de No conformidad se muestran dos apartados:  •  Datos de la no conformidad: Muestra los datos referentes a la No conformidad. El  único campo que se puede editar en este apartado es el campo “Cumple” que por  defecto se muestra marcado como “No cumple”. Este campo editable solo se podrá  marcar como “Cumple” cuando se hayan implementado las medidas asociadas a la  No conformidad.
+
 •  Medidas correctivas: Muestra los datos referentes a la No conformidad.  El único  campo que se puede editar en este apartado es el campo “Cumple” que por defecto  se muestra marcado como “No cumple”. Este campo editable solo se podrá marcar  como “Cumple” cuando se hayan implementado las medidas asociadas a la No  conformidad.
 
 GRÁFICA DE RESULTADOS
+
 En la pestaña “Gráficas de resultados” se muestran dos tipos de gráficas en función del tipo  de estudio. La primera precisa los resultados de porcentaje de cumplimiento por estándar  mientras que la segunda gráfica referencia el porcentaje de cumplimiento por ciclo. En cada  gráfica se pueden realizar las siguientes acciones:  •  Refrescar: Herramienta que permite actualizar las gráficas.  •  Descargar imagen: Permite descargar la información visualizada en las gráficas en  formato .png.  •
+
 La primera precisa los resultados de porcentaje de cumplimiento por estándar  mientras que la segunda gráfica referencia el porcentaje de cumplimiento por ciclo. En cada  gráfica se pueden realizar las siguientes acciones:  •  Refrescar: Herramienta que permite actualizar las gráficas.  •  Descargar imagen: Permite descargar la información visualizada en las gráficas en  formato .png.  •  Exportar a hoja de cálculo: Permite descargar la información en una hoja de cálculo.
+
 En esta pestaña se muestra una síntesis de la información correspondiente al proceso de  evaluación de aspectos legales del estudio. Se puede cerrar la evaluación a través del botón  “Cerrar evaluación” el cual se habilita únicamente cuando el usuario ha establecido, al  menos, una medida correctiva para cada No conformidad.
 
 GENERAR DOCUMENTACIÓN
+
 GENERAR DOCUMENTACIÓN
 
 La pestaña generar documentación se habilita una vez se ha cerrado el estudio en la pestaña  resumen. En esta pantalla se puede generar el informe de la evaluación de la normativa en  formato PDF además de poder adjuntar otros archivos en caso de ser necesario. El informe  de evaluación se puede generar de forma ilimitada.
+
 33  También se puede descargar el informe clicando directamente al nombre de la  autoevaluación (link azul). Este listado cuenta con las opciones de búsqueda, añadir filtros,  configurar columnas, paginado y el botón Guardar.
 
 DOCUMENTACIÓN
@@ -94,6 +147,7 @@ DOCUMENTACIÓN
 La pestaña Documentos también se habilita una vez se ha cerrado el estudio en la pestaña  resumen y muestra en pantalla el informe de la evaluación.
 
 5. PLANIFICACIÓN Y EJECUCIÓN DE MEDIDAS
+
 DOCUMENTACIÓN
 
 La pestaña Documentos también se habilita una vez se ha cerrado el estudio en la pestaña  resumen y muestra en pantalla el informe de la evaluación.
@@ -101,6 +155,7 @@ La pestaña Documentos también se habilita una vez se ha cerrado el estudio en 
 5. PLANIFICACIÓN Y EJECUCIÓN DE MEDIDAS
 
 El usuario accede al cardboard “Planificación y ejecución de medidas” y visualiza el listado  con la consolidación de las no conformidades que se deben abordar a través de un plan de  acción con el objeto de eliminar el incumplimiento de un requisito.
+
 5. PLANIFICACIÓN Y EJECUCIÓN DE MEDIDAS
 
 El usuario accede al cardboard “Planificación y ejecución de medidas” y visualiza el listado  con la consolidación de las no conformidades que se deben abordar a través de un plan de  acción con el objeto de eliminar el incumplimiento de un requisito.
@@ -108,9 +163,11 @@ El usuario accede al cardboard “Planificación y ejecución de medidas” y vi
 Este listado cuenta con las opciones: buscador, añadir filtros, descargar listado, paginado y  la acción editar, que permite acceder a la No conformidad.
 
 36  6. COMPARATIVA DE ESTUDIOS:
+
 Este listado cuenta con las opciones: buscador, añadir filtros, descargar listado, paginado y  la acción editar, que permite acceder a la No conformidad.
 
 36  6. COMPARATIVA DE ESTUDIOS:
 
 El usuario accede al cardboard “Comparativa de estudios” y visualiza dos campos de  selección. Según la comparativa de estudios que se quiera realizar, se ha de seleccionar un  Decreto y los estudios a comparar. Una vez seleccionados se habilitarán los gráficos.
+
 37  Las gráficas en la parte superior disponen de componentes transversales a nivel de la  plataforma que permiten al usuario realizar las siguientes acciones:  •  Refrescar: Herramienta que permite actualizar las gráficas.  •  Descargar imagen: Permite descargar la información visualizada en las gráficas.  •  Exportar a hoja de cálculo: Permite descargar la información en una hoja de cálculo.

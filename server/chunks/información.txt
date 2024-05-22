@@ -7,6 +7,7 @@ CONTENIDO
 Sabentis es la nueva plataforma de gestión especializada en el ámbito de Seguridad y Salud en  el Trabajo adaptada a las nuevas tecnologías y a los nuevos modelos de gestión de la  prevención.   La plataforma dispone del módulo Información documentada en el cual se almacenarán todos  los documentos cargados y generados por la empresa en los diferentes módulos de la  plataforma.
 
 2. SABENTIS: INFORMACIÓN DOCUMENTADA
+
 2. SABENTIS: INFORMACIÓN DOCUMENTADA
 
 El usuario puede acceder al módulo “Información Documentada”, desde:  •  La entrada del menú lateral de la plataforma.  •  Desde el cardboard “Información documentada” del panel principal.
@@ -14,24 +15,43 @@ El usuario puede acceder al módulo “Información Documentada”, desde:  • 
 5  Al clicar ya sea en el menú lateral o desde el cardboard, el usuario es redirigido a la home del  módulo, donde visualiza los cardboards “Gestión de plantillas de documentos“ y  “Repositorio documental de la empresa”.
 
 3. REPOSITORIO DOCUMENTAL DE LA EMPRESA
+
 El usuario accede al cardboard “Repositorio documental” y visualiza un listado que contiene  todos los archivos generados por parte de la empresa en los diferentes módulos de la  plataforma, por ejemplo:  •  Estructura organizativa: Se visualizan todos los archivos añadidos en la pestaña  “Documentos” de las diferentes ubicaciones del módulo.  •  Identificación de peligros y evaluación de riesgos: Se visualiza el Informe de  evaluación de riesgos.  •  Auditorías: Se visualiza el informe de
+
 los archivos generados por parte de la empresa en los diferentes módulos de la  plataforma, por ejemplo:  •  Estructura organizativa: Se visualizan todos los archivos añadidos en la pestaña  “Documentos” de las diferentes ubicaciones del módulo.  •  Identificación de peligros y evaluación de riesgos: Se visualiza el Informe de  evaluación de riesgos.  •  Auditorías: Se visualiza el informe de auditoría.  •  Planes de emergencia: Se visualiza el informe de planes de emergencia.  •  Políticas de
+
 •  Estructura organizativa: Se visualizan todos los archivos añadidos en la pestaña  “Documentos” de las diferentes ubicaciones del módulo.  •  Identificación de peligros y evaluación de riesgos: Se visualiza el Informe de  evaluación de riesgos.  •  Auditorías: Se visualiza el informe de auditoría.  •  Planes de emergencia: Se visualiza el informe de planes de emergencia.  •  Políticas de seguridad y salud en el trabajo.  •  Equipos de protección personal: Se visualiza el Informe de EPP.  •
+
 de las diferentes ubicaciones del módulo.  •  Identificación de peligros y evaluación de riesgos: Se visualiza el Informe de  evaluación de riesgos.  •  Auditorías: Se visualiza el informe de auditoría.  •  Planes de emergencia: Se visualiza el informe de planes de emergencia.  •  Políticas de seguridad y salud en el trabajo.  •  Equipos de protección personal: Se visualiza el Informe de EPP.  •  Inspecciones de seguridad: Se visualiza el informe de inspección de los diferentes  tipos de
+
 Se visualiza el Informe de  evaluación de riesgos.  •  Auditorías: Se visualiza el informe de auditoría.  •  Planes de emergencia: Se visualiza el informe de planes de emergencia.  •  Políticas de seguridad y salud en el trabajo.  •  Equipos de protección personal: Se visualiza el Informe de EPP.  •  Inspecciones de seguridad: Se visualiza el informe de inspección de los diferentes  tipos de inspecciones definidas en la plataforma.
+
 6  •  Ausentismo: Se visualizan todos los archivos añadidos en la pestaña “Documentación”  de los diferentes componentes del módulo.  •  Formaciones: Se mostrarán todos archivos que se adjunten al momento de crear el  curso.
+
 Independientemente del usuario que lo haya creado en este listado se muestran todos los  archivos de la empresa tanto vigente como expirados, el listado cuenta con las opciones:  buscador, añadir filtros, paginado y las acciones:  •  Descargar: Permite descargar el archivo.  •  Editar: Permite acceder al formulario de cargar archivos para editar y/o completar los  datos.  •  Eliminar: Solo el usuario logado podrá eliminar documentos. En los documentos  generados por otro usuario no se muestra
+
 de la empresa tanto vigente como expirados, el listado cuenta con las opciones:  buscador, añadir filtros, paginado y las acciones:  •  Descargar: Permite descargar el archivo.  •  Editar: Permite acceder al formulario de cargar archivos para editar y/o completar los  datos.  •  Eliminar: Solo el usuario logado podrá eliminar documentos. En los documentos  generados por otro usuario no se muestra el ícono eliminar.
+
 En el listado de documentos se muestra la columna “Tags” (palabra clave asignada a un dato  almacenado en un repositorio), en la cual se pueden añadir diferentes etiquetas para  identificar los documentos. En el caso de los documentos generados en el módulo Estructura  organizativa, por defecto, se muestran los siguientes tags:  •  Documentos de Empresa: Empresa.  •  Documentos de Centros de trabajo: Centro de trabajo, [Nombre del centro]  •  Documentos de trabajadores: [Nombre del trabajador],
+
 en un repositorio), en la cual se pueden añadir diferentes etiquetas para  identificar los documentos. En el caso de los documentos generados en el módulo Estructura  organizativa, por defecto, se muestran los siguientes tags:  •  Documentos de Empresa: Empresa.  •  Documentos de Centros de trabajo: Centro de trabajo, [Nombre del centro]  •  Documentos de trabajadores: [Nombre del trabajador], Trabajador  •  Documentos de Lugares: [Nombre del centro], [Nombre del lugar], Área de trabajo.  •
+
 En el caso de los documentos generados en el módulo Estructura  organizativa, por defecto, se muestran los siguientes tags:  •  Documentos de Empresa: Empresa.  •  Documentos de Centros de trabajo: Centro de trabajo, [Nombre del centro]  •  Documentos de trabajadores: [Nombre del trabajador], Trabajador  •  Documentos de Lugares: [Nombre del centro], [Nombre del lugar], Área de trabajo.  •  Documentos de Procesos: [Nombre del proceso], Ocupación.
+
 Asimismo para las diferentes funcionalidades se tendrá lo siguiente:  •  Ficheros cargados en las preguntas de Audit/Inspecciones: El tag mostrado será la  pregunta desde donde se cargan los ficheros.  •  Ficheros que se cargan desde la home principal: El tag mostrado será la pregunta  desde donde se cargan los ficheros.  •  Ficheros que se suben en medidas: El tag mostrado será “Medida de control”.
+
 Los documentos tipo informes (Informe plan de emergencia, informe de inspecciones, etc)  generados en la plataforma tendrán predeterminado el Origen como Internos, además no  mostrarán información en la columna fecha de vigencia, este campo se podrá completar al  acceder a través de la acción Editar.  Para el caso en que la empresa no haya completado el plan de prevención, en la opción “Mi  panel principal” se enlistarán los ítems del cuestionario donde se podrán añadir documentos.  Al clicar a
+
 la plataforma tendrán predeterminado el Origen como Internos, además no  mostrarán información en la columna fecha de vigencia, este campo se podrá completar al  acceder a través de la acción Editar.  Para el caso en que la empresa no haya completado el plan de prevención, en la opción “Mi  panel principal” se enlistarán los ítems del cuestionario donde se podrán añadir documentos.  Al clicar a la opción editar se muestra el formulario de carga de documentos.
+
 4. GESTIÓN DE PLANTILLAS DE DOCUMENTOS
+
 El usuario accede al cardboard “Gestión de plantillas de documentos” y visualiza un listado de  plantillas que las empresas tendrán a disposición. Para acceder al cardboard no es necesario  tener empresa en contexto.  Este listado cuenta con las opciones de búsqueda, añadir filtros, añadir/quitar columnas,  paginado, botón de exportación, botón “Añadir plantilla” que redirige al formulario de carga  de plantillas, y las acciones:  •  Editar: Redirige a la ficha donde se puede editar la
+
 de  plantillas que las empresas tendrán a disposición. Para acceder al cardboard no es necesario  tener empresa en contexto.  Este listado cuenta con las opciones de búsqueda, añadir filtros, añadir/quitar columnas,  paginado, botón de exportación, botón “Añadir plantilla” que redirige al formulario de carga  de plantillas, y las acciones:  •  Editar: Redirige a la ficha donde se puede editar la configuración de la plantilla.  •  Descargar: Permite descargar la plantilla desde el listado.  •
+
 tener empresa en contexto.  Este listado cuenta con las opciones de búsqueda, añadir filtros, añadir/quitar columnas,  paginado, botón de exportación, botón “Añadir plantilla” que redirige al formulario de carga  de plantillas, y las acciones:  •  Editar: Redirige a la ficha donde se puede editar la configuración de la plantilla.  •  Descargar: Permite descargar la plantilla desde el listado.  •  Eliminar: Permite eliminar los registros existentes desde el listado de plantillas.
+
 Para añadir una nueva plantilla a la plataforma, el usuario ha de completar la información de  la plantilla y configurar la ubicación, para que las empresas puedan acceder a ella. Los campos  marcados con * son obligatorios.
 
 Una vez completados los datos con la información solicitada el usuario ha de habilitar la  plantilla para que se pueda utilizar.

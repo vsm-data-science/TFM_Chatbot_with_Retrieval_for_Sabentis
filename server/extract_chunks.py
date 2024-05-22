@@ -43,4 +43,4 @@ for name, chunks in manual_chunks.items():
     file_path = f"chunks/{name.lower()}.txt"
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
     with open(file_path, 'w', encoding='utf-8') as file:
-        file.write('\n'.join(chunks))
+        file.write('\n\n'.join(chunks))
