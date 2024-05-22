@@ -1,12 +1,4 @@
-DATOS DEL DOCUMENTO
-
-HISTÓRICO DE CAMBIOS
-
-Documento  Manual de uso del módulo IER PYMES.  Descripción  Documento guía del uso del módulo IER, modelo PYMES.  Versión  1.2  Fecha modificación  06/02/2023  Actualizado por  Víctor Andrade Peláez  Aprobado por
-
-Versión  Fecha  Comentarios  Autor  Versión 1.0  15/06/2022  Actualización  Miguel Ángel Moreno  Versión 1.1  28/10/2022  Actualización  Mercedes León  Versión 1.1  06/02/2023  Actualización  Víctor Andrade
-
-CONTENIDO
+DATOS DEL DOCUMENTO  HISTÓRICO DE CAMBIOS  Documento  Manual de uso del módulo IER PYMES.  Descripción  Documento guía del uso del módulo IER, modelo PYMES.  Versión  1.2  Fecha modificación  06/02/2023  Actualizado por  Víctor Andrade Peláez  Aprobado por  Versión  Fecha  Comentarios  Autor  Versión 1.0  15/06/2022  Actualización  Miguel Ángel Moreno  Versión 1.1  28/10/2022  Actualización  Mercedes León  Versión 1.1  06/02/2023  Actualización  Víctor Andrade  CONTENIDO
 
 Sabentis es la nueva plataforma de gestión especializada en el ámbito de seguridad y salud en  el trabajo, adaptada a las nuevas tecnologías y a los nuevos modelos de gestión de la  prevención de riesgos.   A través del módulo Identificación y Evaluación de Riesgos IER, se permite a la empresa  establecer un procedimiento lógico de valoración de riesgos implícitos en los procesos, además  de permitir fijar estrategias de gestión administrativas y/u operativas que permitan controlar,  reducir o
 
@@ -18,9 +10,7 @@ La identificación y evaluación de riesgos es el proceso técnico inicial en ma
 
 y salud en el trabajo, sobre el que se basa la gestión preventiva de una empresa. Esta  actividad tiene por objetivo analizar tanto los elementos que componen el espacio físico, como  las actividades que se desarrollan sobre el mismo de modo que se pueda estimar o valorar el  daño que pueden producir un conjunto de factores en un tiempo determinado y, finalmente,  determinar las medidas de acción concretas para prevenir la ocurrencia de accidentes de  trabajo y/o enfermedades profesionales.
 
-El usuario puede acceder al módulo de identificación y evaluación de riesgos (IER) con  empresa seleccionada en contexto, desde:  •  La entrada de menú lateral de la plataforma.  •  Desde el cardboard “Identificación y Evaluación de Riesgos”.
-
-Al clicar ya sea en el menú lateral o desde el cardboard, el usuario es redirigido a la Home del  módulo, donde visualizan los siguientes cardboards:
+El usuario puede acceder al módulo de identificación y evaluación de riesgos (IER) con  empresa seleccionada en contexto, desde:  •  La entrada de menú lateral de la plataforma.  •  Desde el cardboard “Identificación y Evaluación de Riesgos”.  Al clicar ya sea en el menú lateral o desde el cardboard, el usuario es redirigido a la Home del  módulo, donde visualizan los siguientes cardboards:
 
 El usuario ingresa al cardboard “Evaluaciones” y visualiza un listado de las evaluaciones que se  han realizado en la empresa. Estas pueden estar en estado abierta o cerrada.  Los campos del formulario marcados con * son de carácter obligatorio. En caso de que no se  completen no se permite crear/guardar el registro de evaluación.  Este listado cuenta con las opciones: buscador, añadir filtros, descargar listado, paginado,  botón “Nueva evaluación” que redirige al formulario de creación de
 
@@ -46,37 +36,19 @@ por  jerarquía de control. La gráfica se puede descargar.  Medidas por estado 
 
 7  •  Datos de la evaluación: Redirige a la ficha de la evaluación.  •  Ir a la evaluación: Redirige a la pestaña “Evaluación por ubicaciones”.  •  Ir a medidas de control: Redirige a la pestaña “Medidas preventivas/correctivas”.  •  Eliminar evaluación: Permite eliminar el registro.
 
-En la pestaña Datos de la evaluación se habilita el botón “Cerrar evaluación” siempre que se  haya realizado la evaluación.   Una vez creado el registro de la evaluación, se habilitan las pestañas:    •  Evaluación por ubicaciones   •  Medidas preventivas/correctivas  •  Documentos
+En la pestaña Datos de la evaluación se habilita el botón “Cerrar evaluación” siempre que se  haya realizado la evaluación.   Una vez creado el registro de la evaluación, se habilitan las pestañas:    •  Evaluación por ubicaciones   •  Medidas preventivas/correctivas  •  Documentos  Nota: Cuando se cierra la evaluación solo se puede acceder a visualizar la información, ya no  se puede gestionar la información de ésta.  EVALUACIONES POR UBICACIONES
 
-Nota: Cuando se cierra la evaluación solo se puede acceder a visualizar la información, ya no  se puede gestionar la información de ésta.
-
-EVALUACIONES POR UBICACIONES
-
-Nota: Cuando se cierra la evaluación solo se puede acceder a visualizar la información, ya no  se puede gestionar la información de ésta.
-
-EVALUACIONES POR UBICACIONES
-
-Al acceder a esta pestaña el usuario visualiza como subpestañas todas las ubicaciones de la  estructura organizativa que seleccionó al crear el registro de evaluación. En el caso que la  ubicación seleccionada sea “Empresa” se muestra automáticamente un listado con todos los  riesgos predefinidos en la plataforma.
+Nota: Cuando se cierra la evaluación solo se puede acceder a visualizar la información, ya no  se puede gestionar la información de ésta.  EVALUACIONES POR UBICACIONES  Al acceder a esta pestaña el usuario visualiza como subpestañas todas las ubicaciones de la  estructura organizativa que seleccionó al crear el registro de evaluación. En el caso que la  ubicación seleccionada sea “Empresa” se muestra automáticamente un listado con todos los  riesgos predefinidos en la plataforma.
 
 Para el caso en que la ubicación seleccionada sea Centro de trabajo o las demás ubicaciones  (Lugares de Trabajo, Ocupaciones, Puestos de Trabajo, Agentes Materiales, Actividades, etc),  se muestra el ícono (+).   Al clicar a esta opción se despliega una pantalla lateral con el listado de centros o ubicaciones  seleccionado.
 
-Una vez seleccionada la ubicación desde el listado, el usuario puede:  •  Realizar búsquedas, añadir/quitar columnas, aplicar filtros a las columnas del listado  siempre que no sean autocalculadas, descargar listado.  •  Acciones: Identificar y Evaluar.  •  Cambiar la ubicación a evaluar.
+Una vez seleccionada la ubicación desde el listado, el usuario puede:  •  Realizar búsquedas, añadir/quitar columnas, aplicar filtros a las columnas del listado  siempre que no sean autocalculadas, descargar listado.  •  Acciones: Identificar y Evaluar.  •  Cambiar la ubicación a evaluar.  11  •  Aplicar filtros por categoría del riesgo: “Accidentes de Trabajo AT.” o “Enfermedades  Profesionales EE.PP.”  •  Aplicar filtro por Estado del riesgo: Identificado o Descartado.
 
-11  •  Aplicar filtros por categoría del riesgo: “Accidentes de Trabajo AT.” o “Enfermedades  Profesionales EE.PP.”
+•  Aplicar filtro por Estado del riesgo: Identificado o Descartado.  En la columna acciones se puede Identificar y Evaluar el riesgo. Inicialmente los riesgos se  muestran en estado “Descartado”. Un riesgo se puede evaluar sin previamente haberlo  identificado pero al finalizar la evaluación se mostrará como “Identificado”.  Cuando se ha identificado el riesgo, se muestra en Estado “Identificado”, y cuando se ha  evaluado se muestra la acción “Medidas” que permite añadir medidas.
 
-•  Aplicar filtro por Estado del riesgo: Identificado o Descartado.
+Al clicar a la opción “Evaluar”, se despliega una pantalla lateral con el formulario de evaluación  del riesgo. Los campos del formulario marcados con * son de carácter obligatorio. En este caso,  conforme se completan, se van mostrando los demás campos de la evaluación que determinan  el nivel del riesgo.  2.  Seleccionar un valor en el campo “Consecuencia”. Finalmente se muestra el valor del  “Nivel del Riesgo”. Al guardar el formulario estos datos se reflejarán en el listado.
 
-•  Aplicar filtro por Estado del riesgo: Identificado o Descartado.
-
-En la columna acciones se puede Identificar y Evaluar el riesgo. Inicialmente los riesgos se  muestran en estado “Descartado”. Un riesgo se puede evaluar sin previamente haberlo  identificado pero al finalizar la evaluación se mostrará como “Identificado”.  Cuando se ha identificado el riesgo, se muestra en Estado “Identificado”, y cuando se ha  evaluado se muestra la acción “Medidas” que permite añadir medidas.
-
-Al clicar a la opción “Evaluar”, se despliega una pantalla lateral con el formulario de evaluación  del riesgo. Los campos del formulario marcados con * son de carácter obligatorio. En este caso,  conforme se completan, se van mostrando los demás campos de la evaluación que determinan  el nivel del riesgo.
-
-2.  Seleccionar un valor en el campo “Consecuencia”. Finalmente se muestra el valor del  “Nivel del Riesgo”. Al guardar el formulario estos datos se reflejarán en el listado.
-
-2.  Seleccionar un valor en el campo “Consecuencia”. Finalmente se muestra el valor del  “Nivel del Riesgo”. Al guardar el formulario estos datos se reflejarán en el listado.
-
-RIESGO RESIDUAL:  El apartado de riesgo residual se mostrará en el formulario de evaluación  una vez se ha evaluado el riesgo. Da la opción de volver a evaluar un riesgo cuando ya se han  implementado las medidas preventivas/correctivas.
+2.  Seleccionar un valor en el campo “Consecuencia”. Finalmente se muestra el valor del  “Nivel del Riesgo”. Al guardar el formulario estos datos se reflejarán en el listado.  RIESGO RESIDUAL:  El apartado de riesgo residual se mostrará en el formulario de evaluación  una vez se ha evaluado el riesgo. Da la opción de volver a evaluar un riesgo cuando ya se han  implementado las medidas preventivas/correctivas.
 
 Al clicar al botón “Medidas” se redirige a una ventana lateral que muestra un listado de  medidas preventivas/correctivas. Desde este listado el usuario podrá:  •  Añadir medidas manualmente desde el botón “Añadir medidas”.  •  Añadir medidas predefinidas en la plataforma a través del botón “Añadir desde  biblioteca”.  •  Editar: Lleva al usuario al formulario de la medida en la pestaña Medidas  preventivas/correctivas. Los campos del formulario marcados con * son de carácter  obligatorio, en
 
@@ -86,25 +58,15 @@ el botón “Añadir medidas”.  •  Añadir medidas predefinidas en la plataf
 
 “Añadir desde  biblioteca”.  •  Editar: Lleva al usuario al formulario de la medida en la pestaña Medidas  preventivas/correctivas. Los campos del formulario marcados con * son de carácter  obligatorio, en caso de no completarlos no se permite añadir la medida.  •  Eliminar: Permite eliminar la medida independiente de que se haya añadido  manualmente o desde la biblioteca, siempre que no esté en estado “Cerrada”.
 
-Duplicar: Al hacer clic en esta opción, se abre una ventana lateral que muestra la opción de  duplicar el riesgo en cuestión. Esta acción permite al usuario valorar el mismo riesgo varias  veces para la misma ubicación.
+Duplicar: Al hacer clic en esta opción, se abre una ventana lateral que muestra la opción de  duplicar el riesgo en cuestión. Esta acción permite al usuario valorar el mismo riesgo varias  veces para la misma ubicación.  Al añadir un duplicado este se añadirá automáticamente al listado dentro del cual el usuario  podrá evaluarlo y guardarlo.  20  MEDIDAS PREVENTIVAS Y CORRECTIVAS
 
-Al añadir un duplicado este se añadirá automáticamente al listado dentro del cual el usuario  podrá evaluarlo y guardarlo.
-
-20  MEDIDAS PREVENTIVAS Y CORRECTIVAS
-
-Al añadir un duplicado este se añadirá automáticamente al listado dentro del cual el usuario  podrá evaluarlo y guardarlo.
-
-20  MEDIDAS PREVENTIVAS Y CORRECTIVAS
-
-El usuario accede a esta pestaña de las siguientes formas:  •  Clicando al botón “Ir al Formulario Completo” ubicado en el parte inferior del  formulario resumen de medidas, el usuario es redirigido al formulario completo de la medida.
+Al añadir un duplicado este se añadirá automáticamente al listado dentro del cual el usuario  podrá evaluarlo y guardarlo.  20  MEDIDAS PREVENTIVAS Y CORRECTIVAS  El usuario accede a esta pestaña de las siguientes formas:  •  Clicando al botón “Ir al Formulario Completo” ubicado en el parte inferior del  formulario resumen de medidas, el usuario es redirigido al formulario completo de la medida.
 
 •  A través del formulario, el usuario podrá añadir documentos relacionados con las  medidas preventivas/correctoras que se quieran planificar. Todos los documentos  aportados en este apartado se añaden automáticamente al repositorio documental de  la empresa.  •  Accediendo directamente a la pestaña donde el usuario visualiza el listado de medidas  establecidas de acuerdo con los resultados de la evaluación de riesgos de las diferentes  ubicaciones.
 
 22  Este listado cuenta con las opciones: Buscador, añadir filtros, descargar listado, paginado,  botón Volver, además permite filtrar por los estados de la medida.
 
-En este mismo formulario, es posible asociar Contingencias Profesionales (Enfermedades  Profesionales y Accidentes de Trabajo) a las diferentes Medidas Preventivas/Correctivas.   1.  Previamente se debe verificar que existan registros de contingencias en el módulo de  ausentismo. Estos registros aparecerán en la pestaña de Contingencias Asociadas, en el  módulo IER, y se podrán añadir a las diferentes Medidas Preventivas/Correctoras existentes.
-
-DOCUMENTOS
+En este mismo formulario, es posible asociar Contingencias Profesionales (Enfermedades  Profesionales y Accidentes de Trabajo) a las diferentes Medidas Preventivas/Correctivas.   1.  Previamente se debe verificar que existan registros de contingencias en el módulo de  ausentismo. Estos registros aparecerán en la pestaña de Contingencias Asociadas, en el  módulo IER, y se podrán añadir a las diferentes Medidas Preventivas/Correctoras existentes.  DOCUMENTOS
 
 El usuario accede a la pestaña Documentos y visualiza el listado de informes generados tales  como: documento de la evaluación de riesgos o notificación de riesgos a los trabajadores.  Desde esta pantalla el usuario podrá generar n veces el informe en sus diferentes formatos  independiente que la evaluación haya sido finalizada. A través del botón Generar informe, el  cual redirige a una pantalla donde el usuario, podrá escoger el tipo de informe que desea  generar. Todos los documentos
 
@@ -112,9 +74,7 @@ como: documento de la evaluación de riesgos o notificación de riesgos a los tr
 
 El usuario al acceder al cardboard “Riesgos por ubicación” visualiza el campo “Tipo de  ubicación” el cual despliega todas las ubicaciones de la estructura organizativa. Una vez  seleccionada el tipo de ubicación se muestra el campo “Ubicación física”, al clicar a (+) se  muestran en la pantalla lateral el listado de ubicaciones.
 
-Al seleccionar la ubicación física se listan los riesgos identificados en los diferentes estudios  realizados en la ubicación. Esta pantalla es informativa, no se puede realizar ningún tipo de  gestión. El usuario solo podrá visualizar los riesgos presentes en la ubicación seleccionada.
-
-28  En el caso de seleccionar la ubicación “Empresa”, no se desplegará ninguna pestaña lateral,  sino que se mostrarán automáticamente los riesgos identificados y evaluados para la empresa.
+Al seleccionar la ubicación física se listan los riesgos identificados en los diferentes estudios  realizados en la ubicación. Esta pantalla es informativa, no se puede realizar ningún tipo de  gestión. El usuario solo podrá visualizar los riesgos presentes en la ubicación seleccionada.  28  En el caso de seleccionar la ubicación “Empresa”, no se desplegará ninguna pestaña lateral,  sino que se mostrarán automáticamente los riesgos identificados y evaluados para la empresa.
 
 El usuario al acceder al cardboard “Riesgos por trabajador”, visualiza el campo “Trabajador”,  el cual lista todos los trabajadores de la empresa. Al seleccionar el trabajador se enlistan los  riesgos identificados en las diferentes evaluaciones realizados en las ubicaciones con las que  el trabajador tiene relación.
 

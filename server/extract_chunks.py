@@ -32,7 +32,7 @@ def split_text(documents: dict[str, Document]):
         split_chunks[name] = []
         text = documents[name]
         doc_chunks = text_splitter.split_documents([text])
-        doc_chunks = [chunk.page_content for chunk in doc_chunks]
+        doc_chunks = [chunk.page_content.replace('\n', ' ') for chunk in doc_chunks]
         split_chunks[name].extend(doc_chunks)
     return split_chunks
 

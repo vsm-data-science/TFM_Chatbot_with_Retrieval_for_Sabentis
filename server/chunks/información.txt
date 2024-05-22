@@ -1,20 +1,6 @@
-DATOS DEL DOCUMENTO
+DATOS DEL DOCUMENTO  HISTÓRICO DE CAMBIOS  CONTENIDO  Sabentis es la nueva plataforma de gestión especializada en el ámbito de Seguridad y Salud en  el Trabajo adaptada a las nuevas tecnologías y a los nuevos modelos de gestión de la  prevención.   La plataforma dispone del módulo Información documentada en el cual se almacenarán todos  los documentos cargados y generados por la empresa en los diferentes módulos de la  plataforma.  2. SABENTIS: INFORMACIÓN DOCUMENTADA
 
-HISTÓRICO DE CAMBIOS
-
-CONTENIDO
-
-Sabentis es la nueva plataforma de gestión especializada en el ámbito de Seguridad y Salud en  el Trabajo adaptada a las nuevas tecnologías y a los nuevos modelos de gestión de la  prevención.   La plataforma dispone del módulo Información documentada en el cual se almacenarán todos  los documentos cargados y generados por la empresa en los diferentes módulos de la  plataforma.
-
-2. SABENTIS: INFORMACIÓN DOCUMENTADA
-
-2. SABENTIS: INFORMACIÓN DOCUMENTADA
-
-El usuario puede acceder al módulo “Información Documentada”, desde:  •  La entrada del menú lateral de la plataforma.  •  Desde el cardboard “Información documentada” del panel principal.
-
-5  Al clicar ya sea en el menú lateral o desde el cardboard, el usuario es redirigido a la home del  módulo, donde visualiza los cardboards “Gestión de plantillas de documentos“ y  “Repositorio documental de la empresa”.
-
-3. REPOSITORIO DOCUMENTAL DE LA EMPRESA
+2. SABENTIS: INFORMACIÓN DOCUMENTADA  El usuario puede acceder al módulo “Información Documentada”, desde:  •  La entrada del menú lateral de la plataforma.  •  Desde el cardboard “Información documentada” del panel principal.  5  Al clicar ya sea en el menú lateral o desde el cardboard, el usuario es redirigido a la home del  módulo, donde visualiza los cardboards “Gestión de plantillas de documentos“ y  “Repositorio documental de la empresa”.  3. REPOSITORIO DOCUMENTAL DE LA EMPRESA
 
 El usuario accede al cardboard “Repositorio documental” y visualiza un listado que contiene  todos los archivos generados por parte de la empresa en los diferentes módulos de la  plataforma, por ejemplo:  •  Estructura organizativa: Se visualizan todos los archivos añadidos en la pestaña  “Documentos” de las diferentes ubicaciones del módulo.  •  Identificación de peligros y evaluación de riesgos: Se visualiza el Informe de  evaluación de riesgos.  •  Auditorías: Se visualiza el informe de
 
@@ -52,6 +38,4 @@ de  plantillas que las empresas tendrán a disposición. Para acceder al cardboa
 
 tener empresa en contexto.  Este listado cuenta con las opciones de búsqueda, añadir filtros, añadir/quitar columnas,  paginado, botón de exportación, botón “Añadir plantilla” que redirige al formulario de carga  de plantillas, y las acciones:  •  Editar: Redirige a la ficha donde se puede editar la configuración de la plantilla.  •  Descargar: Permite descargar la plantilla desde el listado.  •  Eliminar: Permite eliminar los registros existentes desde el listado de plantillas.
 
-Para añadir una nueva plantilla a la plataforma, el usuario ha de completar la información de  la plantilla y configurar la ubicación, para que las empresas puedan acceder a ella. Los campos  marcados con * son obligatorios.
-
-Una vez completados los datos con la información solicitada el usuario ha de habilitar la  plantilla para que se pueda utilizar.
+Para añadir una nueva plantilla a la plataforma, el usuario ha de completar la información de  la plantilla y configurar la ubicación, para que las empresas puedan acceder a ella. Los campos  marcados con * son obligatorios.  Una vez completados los datos con la información solicitada el usuario ha de habilitar la  plantilla para que se pueda utilizar.

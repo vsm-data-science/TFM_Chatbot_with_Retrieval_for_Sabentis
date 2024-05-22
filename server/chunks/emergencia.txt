@@ -4,9 +4,7 @@ Sabentis es la nueva plataforma de gestión especializada en el ámbito de Segur
 
 adaptada a las nuevas tecnologías y a los nuevos modelos de gestión de la  prevención.    La plataforma dispone de un módulo para llevar a cabo la gestión de emergencias de los  centros de trabajo, confeccionando un plan de emergencia completo en el que se definen los  equipos de emergencias y se evalúan todas las posibles amenazas. Este módulo también  incluye la posibilidad de registrar y evaluar las emergencias reales ocurridas y los simulacros  efectuados.
 
-¿QUÉ ES UN PLAN DE EMERGENCIA?
-
-La pestaña evaluación de aspectos legales permite al usuario evaluar los cuestionarios  aplicables a la evaluación. Aparecerán aquellos cuestionarios que el usuario ha seleccionado.
+¿QUÉ ES UN PLAN DE EMERGENCIA?  La pestaña evaluación de aspectos legales permite al usuario evaluar los cuestionarios  aplicables a la evaluación. Aparecerán aquellos cuestionarios que el usuario ha seleccionado.
 
 Un Plan de Emergencia es un documento en el que se recoge la respuesta que debe dar una  organización y sus trabajadores ante situaciones de emergencia, así como la confección de los  equipos de respuesta e intervención, evaluación de las amenazas potenciales y las medidas de  protección que se deben llevar a cabo.  El Plan de Emergencias proporciona a los ocupantes de  las instalaciones, las herramientas necesarias para planear, organizar, dirigir y controlar un  evento súbito que pueda poner
 
@@ -24,9 +22,7 @@ Los objetivos del Plan son:  •  Identificar las condiciones actuales de los re
 
 necesarios para la  respuesta inicial a una emergencia.  •  Analizar las amenazas internas y externas, con el fin de determinar la vulnerabilidad  para afrontar una emergencia.  •  Establecer las medidas necesarias destinadas a mejorar las condiciones y reducir el  nivel de vulnerabilidad.  •  Establecer procedimientos de reacción para cada tipo de emergencia de las  instalaciones actuales y reacción frente a las principales amenazas identificadas.
 
-5  •  Establecer y mantener un esquema de organización interna, confeccionando los  equipos de respuesta e intervención frente a las emergencias.  •  Minimizar las pérdidas materiales y ambientales derivadas de las diferentes  situaciones de emergencia que se puedan presentar.  •  Minimizar los riesgos que pueda desencadenar una emergencia, mediante el control  de estos.   •  Restablecer el ritmo normal de trabajo a la mayor brevedad posible.
-
-¿QUÉ ES UN SIMULACRO?
+5  •  Establecer y mantener un esquema de organización interna, confeccionando los  equipos de respuesta e intervención frente a las emergencias.  •  Minimizar las pérdidas materiales y ambientales derivadas de las diferentes  situaciones de emergencia que se puedan presentar.  •  Minimizar los riesgos que pueda desencadenar una emergencia, mediante el control  de estos.   •  Restablecer el ritmo normal de trabajo a la mayor brevedad posible.  ¿QUÉ ES UN SIMULACRO?
 
 Un simulacro es un ensayo o ejercicio de adiestramiento práctico del modo de actuar en caso  de emergencia, cuya realización nos permite comprobar de manera real la adecuación de lo  previsto en el Plan de emergencia de la organización las necesidades existentes y sirve, en la  mayoría de las ocasiones, para identificar y llevar a cabo actividades de mejoras tanto en los  procedimientos establecidos como en los medios e instalaciones.  Los simulacros de emergencia son ejercicios prácticos que
 
@@ -50,11 +46,7 @@ la participación eficiente de todos los grupos y trabajadores  implicados, así
 
 de respuesta organizada y operativa a través del  adiestramiento práctico.  Los objetivos del simulacro son la verificación y comprobación de:  •  La eficacia de la organización de respuesta ante una emergencia.  •  La capacitación del personal de la organización.  •  El entrenamiento de todo el personal en la respuesta frente a una emergencia.  •  La suficiencia e idoneidad de los medios y recursos asignados.
 
-6  2. SABENTIS: MÓDULO PLANES DE EMERGENCIA
-
-El usuario puede acceder al módulo “Planes de emergencia”, desde:   •  La entrada del menú lateral de la plataforma.  •  Desde el cardboard “Planes de emergencia”.
-
-7  Se visualiza un dashboard que contiene datos estadísticos, las gráficas muestran la siguiente  información:
+6  2. SABENTIS: MÓDULO PLANES DE EMERGENCIA  El usuario puede acceder al módulo “Planes de emergencia”, desde:   •  La entrada del menú lateral de la plataforma.  •  Desde el cardboard “Planes de emergencia”.  7  Se visualiza un dashboard que contiene datos estadísticos, las gráficas muestran la siguiente  información:
 
 Gráfica  Descripción  Número de centros con planes de  emergencia vigente  Contador. Centros de trabajo con un plan de emergencia en estado  “Vigente” sobre el total de centros de la empresa.  Peligros por nivel de riesgo  Gráfica de datos. Gráfica circular de datos de distribución de  amenazas evaluadas en los planes de emergencia vigentes por nivel  de riesgo obtenido: No evaluado / Bajo / Medio / Alto / Muy alto.  Medidas por estado  Gráfica de datos. Gráfica circular de datos de
 
@@ -68,9 +60,7 @@ los planes de emergencia de los centros de trabajo de la empresa en estados Vige
 
 y En elaboración. Solo puede existir un plan de emergencia en estado vigente por  cada centro de trabajo.  •  En elaboración: Estado inicial posterior al registro del Plan de emergencia.  •  Vigente: Estado que indica que el plan ya se encuentra completado y en vigor en el  centro de trabajo.  •  No vigente: Estado al que pasan los planes de emergencia vigentes cuando un nuevo  plan pasa a estar vigente sustituyendo al actual.
 
-Este listado cuenta con las opciones: buscador, añadir filtros, descargar listado, paginado,  botón Nuevo plan que redirige al formulario de creación del plan de emergencia, y las  acciones:  •  Editar: Permite acceder al registro.  •  Eliminar: Elimina el registro del plan de emergencia, independientemente de su  estado. (Vigente/En elaboración/No vigente).
-
-9  DATOS DEL PLAN DE EMERGENCIA
+Este listado cuenta con las opciones: buscador, añadir filtros, descargar listado, paginado,  botón Nuevo plan que redirige al formulario de creación del plan de emergencia, y las  acciones:  •  Editar: Permite acceder al registro.  •  Eliminar: Elimina el registro del plan de emergencia, independientemente de su  estado. (Vigente/En elaboración/No vigente).  9  DATOS DEL PLAN DE EMERGENCIA
 
 El formulario de registro de Planes de emergencia se encuentra dividido en varios apartados.  •  Apartado Información del plan de emergencias: Este primer apartado del formulario  contiene la información común a los planes de emergencia. La información registrada  en los campos fechas de inicio y fin de vigencia no modifican el estado el plan de forma  automática; el inicio y fin de vigencia es una acción directa del usuario.  •  Apartado Información del centro de trabajo: Contiene la
 
@@ -88,9 +78,7 @@ Ocupación: Contiene la información relativa a la ocupación de personas en  ce
 
 el que se está registrando el plan.   •  Apartado Conectividad del centro de trabajo: Contiene la información relativa a la  conectividad de la que dispone el centro de trabajo para poder recibir y emitir  comunicaciones con el exterior en caso de emergencia.   Los campos del formulario marcados con * son de carácter obligatorio, en caso de no  completarlos no se permite crear/guardar el registro del plan de emergencia.
 
-Una vez creado el registro del plan de emergencia se habilitan las pestañas: Datos del Plan,  Medios de protección, Turnos y Equipos, Directorio externo, Puntos de reunión, Evaluación  de amenazas, Análisis de riesgo, Plan de acción y Generar documentos.
-
-MEDIOS DE PROTECCIÓN
+Una vez creado el registro del plan de emergencia se habilitan las pestañas: Datos del Plan,  Medios de protección, Turnos y Equipos, Directorio externo, Puntos de reunión, Evaluación  de amenazas, Análisis de riesgo, Plan de acción y Generar documentos.  MEDIOS DE PROTECCIÓN
 
 El usuario accede a la pestaña medios de protección y visualiza el listado de los recursos  Vigentes/No vigentes de los que disponen los centros de trabajo para responder ante  situaciones de emergencia. Este listado cuenta con las opciones: buscador, añadir filtros,  descargar listado, paginado, botón Nuevo medio que redirige al formulario de creación de  medios de protección, y las acciones:  •  Editar: redirige a la ficha del registro para editar los datos del medio de protección.  •
 
@@ -142,9 +130,7 @@ de acuerdo con la normativa) por lo que no será posible añadir  nuevos equipos
 
 pero sí la descripción de funciones de estos, de forma  que el usuario únicamente debe definir los miembros titulares y/o suplentes que compondrán  estos equipos.   El listado cuenta con las opciones: buscador, añadir filtros, descargar listado, paginado y la  acción:  •  Editar: Redirige a una ventana lateral desde la cual se puede añadir y/o desasociar los  miembros del equipo, además de seleccionar el tipo de miembro (titular o suplente).
 
-DIRECTORIO EXTERNO
-
-El usuario accede a la pestaña “Directorio externo” y visualiza en el listado el directorio de los  servicios externos (por ejemplo: entidades de socorro, plan de ayuda mutua o cadena de  llamadas) con los que puede contactar en caso de situaciones de emergencias. Este listado  cuenta con las opciones: buscador, añadir filtros, descargar listado, paginado, botón Añadir
+DIRECTORIO EXTERNO  El usuario accede a la pestaña “Directorio externo” y visualiza en el listado el directorio de los  servicios externos (por ejemplo: entidades de socorro, plan de ayuda mutua o cadena de  llamadas) con los que puede contactar en caso de situaciones de emergencias. Este listado  cuenta con las opciones: buscador, añadir filtros, descargar listado, paginado, botón Añadir
 
 16  que redirige al formulario de creación del servicio, botón Volver que redirige al listado de  planes de emergencias y las acciones editar y eliminar.   Los campos del formulario marcados con * son de carácter obligatorio, en caso de no  completarlos no se permite crear/guardar el registro del servicio.
 
@@ -168,9 +154,7 @@ de  la amenaza en el cual deberá completar los campos obligatorios para poder g
 
 Este formulario permite realizar guardados parciales en la evaluación, por lo que se muestra  en una barra el grado de avance en la evaluación de la amenaza. Solo cuando se ha completado  la evaluación se habilita el botón Finalizar el cual permite finalizar la evaluación de la amenaza.  Una vez finalizada, el formulario de evaluación solo se podrá editar los datos del primer  apartado. El cuestionario no permitirá editar las respuestas de la evaluación.
 
-En el listado de amenazas se mostrará el botón “Iniciar vigencia” solo cuando exista al menos  una amenaza evaluada, o todas las amenazas identificadas hayan sido evaluadas. Se habilitan  las pestañas Análisis del riesgo y documentación.
-
-Una vez iniciada la vigencia el estado del plan cambia a Vigente, adicional se bloqueará la  posibilidad de modificar las amenazas, es decir no se podrá identificar y/o descartar amenazas,  las evaluaciones realizadas quedarán no editables.
+En el listado de amenazas se mostrará el botón “Iniciar vigencia” solo cuando exista al menos  una amenaza evaluada, o todas las amenazas identificadas hayan sido evaluadas. Se habilitan  las pestañas Análisis del riesgo y documentación.  Una vez iniciada la vigencia el estado del plan cambia a Vigente, adicional se bloqueará la  posibilidad de modificar las amenazas, es decir no se podrá identificar y/o descartar amenazas,  las evaluaciones realizadas quedarán no editables.
 
 El usuario accede a la pestaña “Análisis de riesgo” en la que se muestra una tabla resumen de  la evaluación de amenazas realizada, mostrando la puntuación obtenida en cada aspecto y  vulnerabilidad y el color del rombo asociado, así como el resultado final del diamante y el nivel  de riesgo obtenido para cada amenaza. La pantalla no contiene acciones para el usuario,  únicamente el botón “Volver” que redirige al listado de planes de emergencia.  Esta pestaña se habilita cuando el usuario
 
@@ -212,9 +196,7 @@ Este listado cuenta con las opciones: buscador, añadir filtros, paginado, desca
 
 botón Añadir actividad que redirige al formulario de actividades, las acciones editar y eliminar.  Los campos del formulario marcados con * son de carácter obligatorio, en caso de no  completarlos no se permite crear/guardar el registro del simulacro, simulación o emergencia.  Cuando se marca el switch Realizada se habilitan los campos fecha de realización y descripción  de la evidencia de cumplimiento.
 
-GENERAR DOCUMENTOS
-
-El usuario accede a esta pestaña y visualiza el listado de informes generados en formato pdf  y Word. Este listado cuenta con las opciones: buscador, añadir filtros, paginado, botón  Generar informe que permite generar y descargar el informe en los diferentes formatos antes  mencionados, y la acción eliminar. El informe se puede generar n veces.  El informe se puede descargar clicando en el nombre del fichero.
+GENERAR DOCUMENTOS  El usuario accede a esta pestaña y visualiza el listado de informes generados en formato pdf  y Word. Este listado cuenta con las opciones: buscador, añadir filtros, paginado, botón  Generar informe que permite generar y descargar el informe en los diferentes formatos antes  mencionados, y la acción eliminar. El informe se puede generar n veces.  El informe se puede descargar clicando en el nombre del fichero.
 
 El usuario accede al cardboard “Gestión de botiquines” y visualiza un listado que contiene el  registro de los botiquines existentes en la empresa para poder llevar a cabo su mantenimiento  y gestión del contenido. Este listado cuenta con las opciones: buscador, añadir filtros,  descargar listado, paginado, botón “Añadir” que redirige al formulario de creación de  botiquines, y las acciones:   •  Editar: Permite acceder al registro.  •  Eliminar: Elimina el registro del botiquín,
 
@@ -222,8 +204,6 @@ el  registro de los botiquines existentes en la empresa para poder llevar a cabo
 
 y gestión del contenido. Este listado cuenta con las opciones: buscador, añadir filtros,  descargar listado, paginado, botón “Añadir” que redirige al formulario de creación de  botiquines, y las acciones:   •  Editar: Permite acceder al registro.  •  Eliminar: Elimina el registro del botiquín, independientemente de su estado.  El estado de los botiquines puede ser:  •  Vigente: El botiquín no contiene ningún producto caducado.  •  Caducado: El botiquín contiene uno o más productos caducados.
 
-DATOS DEL BOTIQUÍN
-
-El usuario clica a “Añadir” y es redirigido al formulario del botiquín donde debe completar los  campos requeridos. Los campos que contengan un * son un campo obligatorio y en caso de no  completarlos no se pueden crear/editar los registros.
+DATOS DEL BOTIQUÍN  El usuario clica a “Añadir” y es redirigido al formulario del botiquín donde debe completar los  campos requeridos. Los campos que contengan un * son un campo obligatorio y en caso de no  completarlos no se pueden crear/editar los registros.
 
 Una vez se ha creado el botiquín, se habilita la pestaña “Contenido”, donde aparece el listado  de los productos que contiene el botiquín. Este listado cuenta con las opciones: buscador,  añadir filtros, descargar listado, paginado, botón “Añadir producto” que redirige al formulario  de creación de los productos, y las acciones:   •  Editar: Permite acceder al registro del producto del botiquín.  •  Eliminar: Elimina el producto del botiquín.
