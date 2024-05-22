@@ -20,8 +20,8 @@ class ModelManager:
             "bert": BERTModel(file_processor.original_paragraphs, file_processor.language)
         }
 
-        if pretrained_model_path and os.path.exists(pretrained_model_path):
-            self.models["pretrained"] = PretrainedModel(file_processor.original_paragraphs, file_processor.language, pretrained_model_path)
+        # if pretrained_model_path and os.path.exists(pretrained_model_path):
+            # self.models["pretrained"] = PretrainedModel(file_processor.original_paragraphs, file_processor.language, pretrained_model_path)
 
     def find_most_similar_sentences(self, query, similarity_threshold=0.55):
         results = []
