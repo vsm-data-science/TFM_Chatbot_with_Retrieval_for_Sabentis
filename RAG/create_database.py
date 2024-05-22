@@ -2,12 +2,12 @@ from langchain_community.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_openai import OpenAIEmbeddings
-from langchain.vectorstores.chroma import Chroma
+from langchain_community.vectorstores import Chroma
 import os
 import shutil
 
 CHROMA_PATH = "./chroma/"
-DATA_PATH = "./txt/"
+DATA_PATH = "../server/txt"
 
 def main():
     generate_data_store()
