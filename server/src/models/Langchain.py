@@ -1,5 +1,5 @@
 import re
-from langchain.vectorstores.chroma import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from langchain.memory import ConversationBufferMemory
@@ -7,7 +7,7 @@ from langchain.chains import ConversationChain
 from langchain.schema.messages import HumanMessage, AIMessage
 
 class LangChain:
-    CHROMA_PATH = "./chroma/"
+    CHROMA_PATH = "../RAG/chroma/"
     PROMPT_TEMPLATE = """
     Hola, eres un chatbot de Sabentis, una plataforma para la gestión de la seguridad y los riesgos laborales en el trabajo.
     Necesito tu ayuda para responder a una pregunta basándote solamente en información específica que tengo aquí. Aquí está el contexto:
