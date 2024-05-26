@@ -1,0 +1,65 @@
+dato DOCUMENTO   contenido   Sabentis plataforma gestión especializado ámbito Seguridad Salud   Trabajo adaptado tecnología modelo gestión   prevención .    plataforma disponer módulo “ Ausentismo ” empresa registrar   accidente trabajo , enfermedad profesional , contingencia común , incapacidad ,   ausencia administrativo permiso , investigación .
+
+2 . sabentis : MÓDULO AUSENTISMO   usuario acceder módulo “ Ausentismo ” , :   •   entrada menú lateral pantalla .   •   cardboard “ Ausentismo ” panel principal .   5   clicar menú lateral cardboard , usuario redirigir home   módulo , visualizar cardboard :    •   Accidentes trabajo   •   Enfermedades profesional   •   Contingencias común   •   Incapacidades   •   Ausencias administrativo permiso   •   Estadísticas
+
+módulo incluir dashboard contener dato estadístico , gráfica   mostrar información descargar formato PNG Excel :
+
+nombre   definición   Frecuencia accidentalidad   Gráfica línea . representar número accidente ocurrido   mil persona expuesto .    Ausentismo causa médico   Gráfica línea . representar número ausencia causa médico .   Incapacidades   Gráfica barra . representar número incapacidad registrado   tipo proceso .   gravedad accidente   trabajo   Gráfica barra . representar número accidente ocurrido   gravedad
+
+número accidente ocurrido   gravedad accidente trabajo .
+
+usuario ingresar cardboard “ Accidentes trabajo ” visualizar listado   accidente trabajo suceder empresa añadir . listado   opción búsqueda , filtrado , actualizar , descargar listado , botón   accidente , Carga masivo ( entendimiento manual importador )   acción :   •   Editar : Redirige pantalla dato accidente .   •   Documentación : Redirige pestaña “ Documentación accidente ” .    •
+
+Redirige pestaña “ Documentación accidente ” .    •   Eliminar : eliminar accidente .
+
+dato ACCIDENTE TRABAJO   usuario acceder pestaña “ Datos accidente trabajo ” visualizar formulario   definir información accidente describir suceder .
+
+usuario acceder pestaña “ Incapacidades ” visualizar listado incapacidad   prórroga derivar accidente . usuario registrar   incapacidad / prórroga . acceder botón “ incapacidad / prórroga ”   visualizar formulario serie campo completar . campo marcado   * campo obligatorio , caso completarlo permitir crear / editar   registro . listado opción búsqueda ,
+
+registro . listado opción búsqueda , añadir filtro , añadir / quitar   columna , actualizar descargar listado .
+
+investigación ACCIDENTE   usuario acceder pestaño investigación accidente visualizar formulario   rellenar informe investigación simplemente subir documento   investigación , caso forma externo plataforma . ,   añadir testigo accidente trabajo , interno externo .   SUCESOS CAUSAS
+
+SUCESOS CAUSAS   usuario acceder pestaña Causas accidente visualizar listado causa   originar accidente . generar árbol causa . listado   opción : buscador , filtro , añadir / quitar columna actualizar .   12   listado acción editar causa , añadir naturaleza causa   eliminar causa .   PLAN ACCIÓN
+
+PLAN ACCIÓN   usuario acceder pestaña Plan Acción visualizar listado medida   asociado accidente . listado opción : buscador , filtro , añadir / quitar   columna , actualizar descargar listado . medida asociado , usuario   13   dirigir evaluación riesgo identificar reevaluar riesgo ,   pantalla plan acción .   documentación
+
+usuario acceder pestaño Documentación visualizar listado documento   relacionado accidente . listado opción : buscador , filtro , añadir / quitar   columna , actualizar , descargar listado , subir archivo generar reporte .   usuario clico botón “ Subir archivo ” desplegar ventana lateral   aparecer formulario carga fichero . , clicar “ Generar reporte ” usuario   descargar reporte accidente trabajo
+
+descargar reporte accidente trabajo formato PDF Word .    campo formulario marcado * carácter obligatorio caso   completarlo permitir cargar fichero . archivo cargado pantalla   mostrar módulo repositorio documental .
+
+usuario acceder cardboard “ Enfermedades profesional ” visualizar listado   enfermedad reportar empresa . , añadir   enfermedad . listado opción búsqueda , filtrado , paginado ,   botón enfermedad , carga masivo ( entendimiento manual   importador ) , Descargar listado acción :   •   Editar : Redirige ficha dato enfermedad .   •   Documentación : Redirige pestaño Documentación
+
+•   Documentación : Redirige pestaño Documentación enfermedad .   •   Eliminar : eliminar enfermedad laboral .
+
+acceder ficha enfermedad profesional mostrar siguiente pestaña :   dato REGISTRO   usuario acceder pestaña “ Datos registro ” visualizar dato registro   enfermedad profesional .   INCAPACIDADES
+
+INCAPACIDADES   usuario acceder pestaña “ Incapacidad ” visualizar listado incapacidad   respectivo prorroga derivar enfermedad . listado opción :   buscador ,   filtro ,   añadir / quitar   columna ,   actualizar ,   descargar   listado ,     incapacidad / prórroga acción editar eliminar ficha dato incapacidad .   antecedente
+
+antecedente   usuario acceder pestaña “ Antecedentes ” visualizar listado antecedente   laboral trabajador , , ocupación realizar . listado   opción : buscador , filtro , añadir / quitar columna , actualizar , descargar listado ,   antecedente acción editar eliminar ficha dato   antecedente .   PLAN ACCIÓN
+
+PLAN ACCIÓN   usuario acceder pestaña Plan Acción visualizar listado medida   asociado enfermedad . listado opción : buscador , filtro ,   añadir / quitar columna , actualizar , descargar listado acción dato   medida asociado . medida asociado , usuario dirigir   evaluación riesgo identificar reevaluar riesgo , pantalla   plan acción .   documentación
+
+documentación   usuario acceder pestaña “ Documentación ” visualizar listado documento   relacionado enfermedad profesional . listado opción : buscador ,   filtro , añadir / quitar columna , paginado , descargar listado “ Subir archivo ” desplegar   pantalla lateral formulario carga fichero , acción : editar , descargar
+
+21   eliminar . campo formulario marcado * carácter obligatorio , caso   completarlo permitir cargar fichero .   archivo cargado pantalla   mostrar módulo repositorio documental .
+
+usuario acceder cardboard “ Contingencias común ” visualizar listado   contingencia común ( accidente laboral enfermedad común ) registrado   trabajador empresa . listado opción : buscador , filtro ,   añadir / quitar columna , paginado , descargar listado , contingencia , carga masivo   ( entendimiento manual importador ) , acción :    •   Editar : Redirige formulario incapacidad .   •   Documentación : Redirige
+
+formulario incapacidad .   •   Documentación : Redirige pestaño documentación .   •   Eliminar : permitir eliminar registro .   campo formulario marcado * carácter obligatorio . caso   completarlo permitir crear / editar registro incapacidad . creado   registro habilitar pestaño Documentación .
+
+habilitar subpestaña :   dato CONTINGENCIA COMÚN   usuario acceder pestaña “ Datos registro ” visualizar formulario   información contingencia común , accidente laboral enfermedad común .   INCAPACIDADES   usuario acceder pestaña “ Incapacidades ” visualizar listado incapacidad   respectivo prórroga derivar contingencia común .
+
+usuario acceder pestaño Documentación visualizar listado documento   relacionado contingencia común . listado opción : buscador , filtro ,   añadir / quitar columna , paginado , descargar listado , botón Subir archivo desplegar   pantalla lateral formulario carga fichero , acción : editar , descargar   eliminar .    campo formulario marcado * carácter obligatorio . caso   completar permitir cargar
+
+caso   completar permitir cargar fichero . archivo cargado pantalla   mostrar módulo repositorio documental .
+
+usuario acceder cardboard “ Incapacidades ” visualizar listado incapacidad   producir empresa , motivo accidente trabajo , accidente   laboral , enfermedad profesional / enfermedad común . listado   opción : buscador , filtro , añadir / quitar columna , paginado , descargar listado Carga   masivo ( entendimiento manual importador ) . usuario   visualizar incapacidad .
+
+7 . AUSENCIAS ADMINISTRATIVAS PERMISOS   usuario acceder cardboard “ Ausencias administrativo permiso ” visualizar listado   ausencia administrativo permiso registrado trabajador empresa .   listado opción : buscador , filtro , añadir / quitar columna , actualizar ,   descargar listado añadir ausencia/ permiso . acción :
+
+28   •   Editar : Redirige ficha ausencia administrativo permiso .   •   Eliminar : permitir eliminar registro .   acceder formulario botón “ ausencia / permiso ” usuario visualizar   serie campo completar , campo formulario marcado *   carácter obligatorio , caso completarlo permitir crear / editar registro .
+
+usuario acceder cardboard “ Estadísticas ” visualizar gráfico recopilar información   módulo , gráfica descargar formato PNG exportar hoja cálculo .   , filtrar información fecha inicio fecha . caso   gráfico Incapacidades tipo incapacidad .   30   gráfica mostrar :   •   Frecuencia accidentalidad   31   •   Proporción accidente trabajo mortal   •   Prevalencia enfermedad laboral
+
+•   Prevalencia enfermedad laboral   •   Incidencia enfermedad laboral   32   •   Ausentismo causa médico   •   Gravedad accidente trabajo   •   Incapacidades

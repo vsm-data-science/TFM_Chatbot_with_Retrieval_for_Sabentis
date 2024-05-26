@@ -1,0 +1,269 @@
+dato DOCUMENTO   Documento   Manual : Estructura organizativo ( GE ) .   Descripción   Manual guía usuario módulo Estructura   Organizativa .   Versión   2.0   Fecha modificación   06/02/2023     Mercedes León   Actualizado   Mercedes León   aprobado
+
+Versión   Fecha   Comentarios   Autor   Versión 1.0   28/10/2021   Redacción   Mercedes León Chele   Versión 1.0   28/10/2021   Aprobación   Miguel Ángel Rodríguez   Versión 1.1   07/03/2022   Actualización   Mercedes León Chele   Versión 1.2   15/06/2022   Actualización   Andrea Alonso Almecija   Versión 2.0   13/10/2022   Actualización   Mercedes León Chele   contenido
+
+contenido   Sabentis plataforma gestión especializado ámbito Seguridad Salud   Trabajo adaptado tecnología modelo gestión   prevención .     módulo Estructura Organizativa permitir definición gestión empresa   plataforma , posibilidad configurar ubicación reflejar realidad   empresa .   2 . MODELO estructura organizativa : EMPRESA
+
+módulo estructura organizativo permitir definición gestión empresa   plataforma , posibilidad configurar ubicación reflejar realidad   empresa herramienta agilizar navegación creación estructura .    estructura organizativo permitir seleccionar entidad básico ocupación   ( CIUO ) concepción puesto trabajo . puesto trabajo entendido   lugar área ocupado persona
+
+entendido   lugar área ocupado persona organización   desarrollar actividad , unión ocupación ubicación físico .
+
+7   TIPOLOGÍA CENTRO TRABAJO
+
+unidad productivo organización presentar distinto característica ,   contemplar distinto tipología unidad productivo campo permitir   correcto descripción . unidad productivo contemplado :   ▪   Centro trabajo ( CT ): utilizado reflejar unidad productivo   lugar edificado .    ▪   Obra : permitir definir obra construcción distinto tipo magnitud , rol   unidad productivo ( empresa principal
+
+rol   unidad productivo ( empresa principal contratista , , centro   ) fecha inicio .    ▪   Itinerante : referencia unidad productivo emplazamiento   fijo duración , vehículo feria .
+
+3 . home estructura organizativo   usuario acceder módulo Estructura Organizativa ( EO ) , opción :   •   entrada menú lateral .   •   cardboard “ Estructura Organizativa ” .
+
+visualizar cardboard entrada funcionalidad módulo :   •   Empresas   •   Centros trabajo   •   Ocupaciones   •   Lugares trabajo   •   Puestos trabajo   •   Trabajadores   •   Ubicaciones libre físico   •   Ubicaciones libre operativo   •   Perfiles empresa   •   Agentes material
+
+, visualizar dashboard contener dato estadístico actualizado   automáticamente fecha consulta empresa nivel estructura organizativo ,   georreferenciador centro trabajo .   gráfica mostrar información :
+
+nombre   descripción   Centros trabajo   Contador centro trabajo registrado . clicar   link “ ” redirigir listado centro trabajo .   Puestos trabajo   Contador puesto trabajo registrado .    trabajador   Contador trabajador registrado . clicar link   “ ” redirigir listado trabajador .   Distribución trabajador   género   Gráfica circular dato distribución trabajador   género :
+
+dato distribución trabajador   género : masculino / femenino . colocar cursor   segmento gráfico , mostrar número trabajador   perteneciente segmento . gráfico descargar .   Distribución trabajador   rango edad   Gráfica circular dato distribución trabajador   rango edad ( 5 rango definido ) . colocar cursor   segmento gráfico , mostrar número trabajador   perteneciente segmento .
+
+número trabajador   perteneciente segmento . gráfico descargar .   Georreferenciador   distribución centro trabajo   Permite ubicación centro trabajo ,   mapa geolocalizador .
+
+usuario acceder cardboard Empresas , presentar siguiente caso depender   selección contexto :   •   empresa contexto : plataforma redirigir usuario ficha empresa .
+
+11   empresa crear él directamente plataforma Sabentis integrar   plataforma . listado empresa mostrar defecto empresa   activo siguiente opción : buscador , filtrar , descargar listado ,   paginado acción editar .    ficha empresa cargar logotipo empresa dato interés ,   , facilitar usuario crear editar Centros trabajo   estructura
+
+editar Centros trabajo   estructura inferior ( Lugares trabajo , Ocupaciones , etc ) . ficha empresa   acceso pestaña “ Centros Trabajo ” , “ Trabajadores empresa ”   “ Documentos ” .
+
+PESTAÑA CENTROS TRABAJO
+
+pestaña usuario visualizar listado centro trabajo pertenecer   empresa ; defecto listado mostrar tener activo . usuario   crear centro empresa botón “ Agregar centro ” redirigir   formulario creación . formulario mostrar defecto nombre empresa   contexto . campo formulario marcado * carácter obligatorio caso   completarlo permitir
+
+obligatorio caso   completarlo permitir crear / guardar registro .   listado siguiente opción : buscador , filtrar , descargar listado , paginado   acción :   •   Editar : permitir acceder ficha centro editar información .   •   Eliminar : permitir eliminar registro creado excepción centro   designar sede principal . eliminar centro trabajo marcado   sede principal , escoger
+
+trabajo marcado   sede principal , escoger centro trabajo sede principal .
+
+editar información centro trabajo visualizar ficha dato centro   pestaña “ Trabajadores centro ” , “ Lugares trabajo ” , “ Ocupaciones ” , “ Agentes   Materiales ” , “ Puestos Trabajo ” “ Documentos ” . ruta facilitar usuario   crear estructura inferior Centro trabajo -como lugar trabajo , ocupación ,   puesto agente materiales- gestionar relación Centro-Trabajador .
+
+usuario acceder pestaña visualizar listado trabajador añadido   manualmente integración empresa . carga dato trabajador realizar   integración usuario visualizar información editar él .    listado mostrar defecto trabajador activo   siguiente opción : buscador , filtrar , paginado , botón “ Agregar trabajador ”   redirigir formulario creación . opción
+
+  redirigir formulario creación . opción “ Operación ” , habilitar seleccionir   mínimo trabajador permitir descargar listado , enviar correo .   escoger operación “ ejecutar operación ” acción :   •   Editar : redirigir ficha trabajador editar información .   •   enviar correo : permitir enviar correo directamente trabajador .   •   Eliminar : permitir eliminar registro trabajador .
+
+PESTAÑA documento   pestaña usuario visualizar listado documento disponible nivel   empresa , documento “ vigente ” “ expirado ” .   documento cargado pestaña visualizar listado repositorio   documental . , documento estructura organizativo , defecto
+
+15   añadir tags predefinido ( entendimiento manual repositorio   documental ) .   listado siguiente opción : buscador , filtrar , paginado , botón “ Añadir   ficheros ” redirigir formulario carga documento acción descargar , editar   eliminar . usuario acceder formulario visualizar serie campo cumplimentar .   campo marcado * carácter obligatorio caso completar   permitir crear / editar
+
+caso completar   permitir crear / editar registro .
+
+usuario acceder cardboard Centros trabajo , presentar siguiente caso   depender selección contexto :   •   empresa CT contexto : redirigir directamente ficha centro   contexto .   17   •   empresa contexto : redirigir listado CT registrado   empresa .   •   empresa contexto : redirigir listado CT registrado plataforma .
+
+18   botón “ Agregar centro ” redirigir formulario creación acción editar   eliminar .   funcionalidad disponible función grupo pertenecer   usuario permiso asignado . campo formulario marcado * carácter   obligatorio caso completarlo permitir crear / guardar registro .    carga masivo centro trabajo carga masivo   relación centro
+
+trabajo carga masivo   relación centro trabajo-trabajador . seleccionar tipo carga masivo   redirige usuario funcionalidad importación / exportación   descargar fichero crear / actualizar registro centro (   entendimiento manual importador ) .
+
+acceder ficha centro trabajo visualizar pestaña “ Trabajadores   centro ” , “ Lugares trabajo ” , “ Ocupaciones ” , “ Agentes material ” , “ Puestos trabajo ”   “ Documentos ” . detallar acción   pestaña indicado .   PESTAÑA TRABAJADORES CENTRO
+
+pestaña usuario :   •   listado trabajador asociado CT , defecto   mostrar trabajador cuyo activo .   •   Asociar trabajador CT apartado “ Asociar trabajador ”   situado listado .    •   Agregar trabajador opción “ Agregar trabajador ” .   listado siguiente opción : buscador , filtrar , paginado , opción   “ Operación ” -esta habilitar
+
+opción   “ Operación ” -esta habilitar seleccionar mínimo trabajador   permitir descargar listado trabajador asociado centro- enviar correo (   escoger operación clicar ícono ) acción :   •   Editar : permitir editar ficha dato trabajador , editar información   relativo puesto trabajo añadir documento .   •   editar fecha : permitir editar fecha relación trabajador centro
+
+fecha relación trabajador centro   apartado “ Asociar trabajador ” .   •   Desasociar : eliminar relación trabajador CT .   •   histórico : permitir histórico relación trabajador CT .   •   enviar correo : opción enviar correo directamente trabajador .
+
+nota : CT Activo / Inactivo , baja ( inactivar ) centro   trabajo estructura inferior ( lugar trabajo , puesto trabajo , agente   material , relación existente trabajador ocupación ,   etcétera ) dejar visible usuario .    momento alta ( activo ) centro trabajo   estructura inferior relación volver activar él .
+
+usuario pestaña visualizar listado lugar trabajo centro   trabajo botón “ ” crear lugar nivel centro . campo   marcado * carácter obligatorio caso completarlo permitir   crear / guardar registro . listado siguiente opción : buscador , filtrar ,   descargar listado , paginado , acción editar eliminar .   PESTAÑA ocupación
+
+PESTAÑA ocupación   usuario pestaña visualizar listado cargo ocupación CT   crear cargo botón “ Agregar cargo ” redirigir   formulario creación . campo marcado * carácter obligatorio caso   completarlo permitir crear / guardar registro .    listado siguiente opción : buscador , filtrar , descargar listado ,   paginado , acción editar eliminar .
+
+pestaña agente MATERIALES   usuario pestaña visualizar listado agente material CT   crear agente material botón “ ” redirigir formulario   creación . campo marcado * carácter obligatorio caso   completarlo permitir crear / guardar registro .    listado siguiente opción : buscador , filtrar , descargar listado ,   paginado , acción editar eliminar .
+
+PESTAÑA puesto TRABAJO   usuario pestaña visualizar listado puesto trabajo CT   agregar puesto trabajo botón “ Agregar puesto ” redirigir
+
+25   formulario creación puesto trabajo . campo marcado * carácter   obligatorio caso completarlo permitir crear / guardar registro .   listado siguiente opción : buscador , filtrar , descargar listado , paginado   acción editar eliminar .
+
+acceder pestaña usuario visualizar listado documento disponible nivel   centro , acción pestaña indicado apartado   pestañar documento empresa .   usuario acceder cardboard Ocupaciones , presentar siguiente caso depender   selección contexto :   •   empresa CT contexto : redirigir listado cargo ocupación   centro seleccionado .
+
+usuario crear cargo ocupación nivel centro manualmente   botón “ Agregar ocupación ” redirigir formulario creación , carga masivo   botón “ Carga masivo ” .   campo marcado * carácter obligatorio   caso completarlo permitir crear / guardar registro . listado   siguiente opción : buscador , filtrar , descargar listado , paginado , acción editar   eliminar .    caso
+
+acción editar   eliminar .    caso centro trabajo contexto agregar cargo , vincular   centro trabajo seleccionado .    función configuración empresa crear Ocupaciones nivel empresa   centro .   ficha dato acceder pestaña “ Actividad ” “ Documentos ” . ficha   dato ocupación aparecer botón “ eliminar cargo ” , “ trabajador ” , “   puesto trabajo ” , “ Exportar
+
+trabajador ” , “   puesto trabajo ” , “ Exportar cargo plantilla ” “ Aplicar plantilla ” .
+
+PESTAÑA actividad   usuario pestaña visualizar listado actividad vinculado   ocupación seleccionado . listado siguiente opción : buscador , filtrar ,   descargar listado , paginado acción editar -permite editar eliminar- .   PESTAÑA DOCUMENTOS
+
+PESTAÑA documento   acceder pestaña usuario visualizar listado documento disponible nivel   ocupación . acción pestaña indicado   apartado pestañar documento empresa .   usuario acceder cardboard Lugares trabajo , presentar siguiente caso   depender selección contexto :   •   empresa CT contexto : redirigir listado lugar trabajo   centro trabajo seleccionado .
+
+•   empresa contexto : redirigir listado lugar trabajo   disponible empresa .   listado siguiente opción : buscador , filtrar , descargar listado ,   paginado , botón “ Carga masivo ” , botón “ ” redirigir formulario creación   acción :
+
+33   •   Editar : permitir acceder ficha lugar trabajo editar información .   •   Eliminar : permitir eliminar registro creado .   funcionalidad disponible función grupo pertenecer   usuario permiso asignado . campo marcado * carácter obligatorio   caso completarlo permitir crear / guardar registro .   ficha dato lugar trabajo acceder pestaña “ Zonas ” , “ Puestos   trabajo ”
+
+acceder pestaña “ Zonas ” , “ Puestos   trabajo ” “ Documentos ” .   ficha dato aparecer botón “ Exportar lugar trabajo plantilla ” ,   “ Aplicar plantilla ” , “ Eliminar ” , “ trabajador ” .
+
+PESTAÑA ZONA   usuario pestaña visualizar listado zona corresponder   lugar trabajo . listado mostrar defecto zona activo   siguiente opción : buscador , filtrar , descargar listado , paginado , botón “ ”   redirigir formulario creación acción editar eliminar .   35   campo marcado * carácter obligatorio caso completarlo   permitir crear / guardar registro .
+
+PESTAÑA puesto TRABAJO   usuario pestaña visualizar listado puesto trabajo   relacionado lugar trabajo seleccionado .
+
+36   listado siguiente opción : buscador , filtrar , descargar listado ,   paginado , botón “ ” redirigir formulario creación puesto trabajo ,   acción editar eliminar . campo marcado * carácter obligatorio   caso completarlo permitir crear / guardar registro .
+
+acceder pestaña usuario visualizar listado documento disponible nivel   lugar trabajo , acción pestaña indicado   apartado pestañar documento empresa .   usuario acceder cardboard Puestos trabajo , presentar siguiente caso   depender selección contexto :    •   empresa CT contexto : redirigir listado puesto trabajo centro .
+
+•   empresa contexto : redirigir listado puesto trabajo   empresa .   crear puesto trabajo botón “ Agregar puesto ”   redirigir formulario creación . puesto trabajo crear nivel centro , lugar
+
+39   trabajo , superficie , zona área disponible . cargar puesto   forma masivo botón “ Carga masivo ” . funcionalidad disponible   función grupo pertenecer usuario permiso asignado . campo   formulario marcado * carácter obligatorio caso completarlo   permitir crear / editar registro .    listado siguiente opción : buscador , filtrar , paginado , descargar
+
+siguiente opción : buscador , filtrar , paginado , descargar listado   acción :   •   Editar : permitir editar ficha dato puesto trabajo . editar ficha   dato visualizar pestaña “ Trabajadores puesto ” , “ Restricciones ” ,   “ Documentos ” .   •   Eliminar : permitir eliminar registro creado .
+
+PESTAÑA TRABAJADORES puesto   usuario pestaña visualizar listado trabajador vinculado   puesto trabajo . listado siguiente opción : buscador , filtrar ,   paginado , botón “ Agregar trabajador ” redirigir formulario creación acción :   •   editar fecha : permitir modificar fecha relación trabajador   puesto .   41   •   Desasociar : permitir desasociar trabajador puesto trabajo .
+
+PESTAÑA restricción   pestaña definir restricción puesto trabajo , agente material   afectar salud trabajador sensibilidad especial   puesto trabajo agente material relacionado puesto .   sensibilidades especial puesto TRABAJO
+
+sensibilidad especial puesto TRABAJO   usuario seleccionar sensibilidad especial puesto trabajo   indicar puesto trabajo apto persona siguiente   sensibilidad :   •   Embarazo   •   Lactancia   •   Menor edad   •   Discapacidad físico   •   Discapacidad sensorial   •   Discapacidad psicosocial   restricción puesto TRABAJO
+
+restricción puesto TRABAJO   listado definir restricción puesto trabajo .     listado siguiente opción : buscador , filtrar , paginado , descargar listado ,   botón “ añadir restricción ” abrir ventana lateral restricción predefinida ,   factor , descripción limitación acción eliminar permitir eliminar restricción .   sensibilidades especial agente MATERIALES relacionado
+
+listado mostrar condicionante agente material vinculado puesto ,   , agente material apto persona sensibilidad .   apartado informativo , sensibilidad especial agente material definir   formulario “ Agentes Materiales ” . listado siguiente opción :   buscador , filtrar , paginado descargar listado .   43   restricción agente MATERIALES
+
+43   restricción agente MATERIALES   listado mostrar restricción agente material relacionado   puesto trabajo . listado siguiente opción : buscador , filtrar ,   paginado descargar listado . apartado informativo , formulario Agentes   Materiales definir restricción .   PESTAÑA DOCUMENTO
+
+PESTAÑA DOCUMENTO   acceder pestaña usuario visualizar listado documento disponible .   acción pestaña indicado apartado documento   empresa .   usuario acceder cardboard Trabajadores , presentar siguiente caso depender   selección contexto :   •   empresa contexto : plataforma redirigir usuario ficha trabajador   empresa .
+
+•   empresa centro contexto : usuario visualizar trabajador   empresa centro trabajo seleccionado .
+
+función grupo pertenecer usuario permiso asignado   opción agregar trabajador manualmente forma masivo . realizar   integración , usuario visualizar información editar él .   defecto mostrar trabajador “ Activo ” , listado   opción búsqueda , filtrado , paginado , botón “ Agregar trabajador ” redirigir   formulario creación botón “ Carga masivo ” permitir
+
+creación botón “ Carga masivo ” permitir descargar/ cargar   cantidad dato forma simultáneo ( complementar información carga masivo   favor revisar manual importador ) . , acción editar   redirigir ficha dato trabajador , eliminar permitir eliminar registro enviar   correo .    opción “ Operación ” habilitar seleccionar mínimo trabajador   permitir descargar listado ,
+
+  permitir descargar listado , enviar correo ( escoger operación   ejecutar operación ) . campo formulario marcado *   carácter obligatorio caso completarlo permitir crear / editar registro .
+
+PESTAÑA CENTROS TRABAJO   pestaña visualizar listado centro trabajador   asociado , caber indicar trabajador asociado “ n centro ” . listado   opción búsqueda , filtrado , paginado , botón “ Asociar centro   trabajo ” permitir asociar trabajador puesto trabajo , “ Historial centro
+
+49   trabajo ” visualizar historial relación trabajador centro ,   acción :   •   editar fecha : modificar fecha relación trabajador centro .   •   Desasociar : Elimina relación trabajador centro .   campo formulario marcado * carácter obligatorio caso   completarlo permitir crear / editar registro .
+
+50   guardar dato formulario relativo asociar centro trabajador ,   relación Trabajador-Centro mostrar listado Centros pertenecer   trabajador .    acceder “ Historial centro ” usuario dirigir pantalla historial CT   editar fecha inicio / relación trabajador centro relación   mantener activo , fecha término fecha actual .
+
+pestaña puesto trabajo
+
+usuario pestaña visualizar listado puesto trabajo   pertenecer trabajador . listado mostrar defecto puesto trabajo   activo siguiente opción : buscador , filtrar , descargar listado ,   paginado , botón “ Asociar puesto trabajo ” redirigir formulario creación   acción :   •   editar fecha : permitir editar fecha relación trabajador puesto   trabajo .    •   Eliminar :
+
+trabajador puesto   trabajo .    •   Eliminar : permitir eliminar registro .   campo formulario marcado * carácter obligatorio caso   completarlo permitir crear / editar registro .
+
+acceder pestaña usuario definir Restricciones , visualizar Certificados   aptitud , Peligros riesgo , equipo protección personal Contingencias   Incapacidades laboral aplicar trabajador .   restricción
+
+restricción   pestaño Restricciones usuario indicar sensibilidad   trabajador , añadir restricción / limitación trabajador visualizar   restricción provenir módulo Vigilancia Salud .   , visualizar listado sensibilidad especial puesto trabajo   agente material , restricción puesto trabajo agente material .   certificado APTITUD
+
+certificado aptitud documento determinar trabajador apto   laboralmente actividad inherente puesto trabajo . pestaña ,   usuario visualizar listado certificado aptitud trabajador . certificado   aptitud vigente expirado .    listado siguiente opción : buscador , filtrar , paginado , botón “ subir   archivo ” redirigir formulario carga fichero acción editar ,
+
+formulario carga fichero acción editar , eliminar
+
+54   descargar certificado . campo formulario marcado * carácter   obligatorio caso completarlo permitir crear / editar registro .   pestaño Peligros Riesgos mostrar listado informativo peligro riesgo   expuesto trabajador ubicación   relacionado . listado siguiente opción : buscador , filtrar , descargar   listado paginado .   equipo protección PERSONAL
+
+pestaño Equipos protección personal mostrar listado :   •   Definición EPP contener tabla definición Equipos   Protección Personal corresponder entregar utilizar trabajador   minimizar riesgo expuesto puesto   trabajo característica personal . listado informativo   siguiente opción : buscador , filtrar , descargar listado paginado .   •   listado
+
+descargar listado paginado .   •   listado Entregas EPP realizado mostrar entrega EPP   realizar trabajador . listado siguiente   opción : buscador , filtrar , descargar listado , paginado acción abrir   pantalla lateral visualizar forma informativo dato relativo   entrega . entrega vigente , vigente devolución parcial ,   devolución caducado .
+
+pestaña contingencias laborales
+
+acceder pestaña usuario visualizar listado informativo registro   contingencia laboral trabajador , listado accidente trabajo   enfermedad laboral trabajador .     listado , contar siguiente opción : buscador , filtrar , descargar listado ,   paginado acción contingencia redirigir ficha dato contingencia   accidente trabajo enfermedad profesional .
+
+58   PESTAÑA INCAPACIDADES LABORALES
+
+pantalla usuario visualizar listado incapacidad trabajador   derivado contingencia profesional ( accidente trabajo enfermedad   profesional ) . listado informativo siguiente opción : buscador ,   filtrar , descargar listado , paginado acción , abrir pantalla lateral   visualización dato incapacidad prórroga .    pantalla lateral , usuario opción ficha
+
+lateral , usuario opción ficha contingencia ,   editar dato relativo incapacidad .
+
+acceder pestaña usuario visualizar listado documento nivel trabajador .   acción pestaña indicado   apartado pestañar documento empresa .   60   10 .   ubicación libres FÍSICAS   usuario acceder cardboard Ubicaciones libre físico contener cardboard Zona ,   Área Superficie .   ubicación libre físico pretender reflejar espacio físico empresa concreto   lugar trabajo .
+
+home mostrar dashboard contener siguiente gráfico :   •   Centros trabajo : contador centro trabajo registrado .   •   Puestos trabajo : contador puesto trabajo registrado .   •   trabajador : contador trabajador registrado .   lugar   trabajo Zona Área Superficie
+
+61   •   Distribución trabajador género : grafica circular dato distribución   género trabajador ubicación libre físico : masculino / femenino .   colocar cursor segmento gráfico , mostrar número   trabajador perteneciente segmento . gráfico descargar .   •   Distribución trabajador rango edad : gráfico circular dato   mostrar distribución rango edad trabajador ubicación libre
+
+rango edad trabajador ubicación libre   físico distribuido 5 rango definido . colocar cursor segmento   gráfico , mostrar número trabajador perteneciente segmento .   gráfico descargar .   •   Distribución centro trabajo : georreferenciador mostrar ubicación   centro trabajo mapa geolocalizador .
+
+acceder cardboard Zona usuario visualizar listado zona ubicación   superior , lugar trabajo . acceder cardboard requerir centro   contexto .    listado mostrar defecto zona activo siguiente   opción : buscador , filtrar , descargar listado , paginado , botón " Zona " redirigir   formulario creación acción :   •   Editar : permitir acceder ficha zona editar
+
+Editar : permitir acceder ficha zona editar información .    •   Eliminar : permitir eliminar registro zona . eliminar zona suponer   eliminación puesto trabajo formar .   campo formulario marcado * carácter obligatorio caso   completarlo permitir crear / editar registro .    editar información zona visualizar ficha dato pestaña “ Área ” ,   “ Puestos trabajo ”
+
+dato pestaña “ Área ” ,   “ Puestos trabajo ” “ Documentos ” .
+
+PESTAÑA ÁREA   usuario pestaña visualizar listado área vinculado   zona . listado mostrar defecto área activo .   siguiente opción : buscador , filtrar , descargar listado , paginado acción editar   eliminar .   PESTAÑA puesto trabajo
+
+usuario pestaña visualizar listado puesto trabajo encontrar   zona seleccionado .    siguiente opción : buscador , filtrar , descargar listado , paginado , botón   “ ” redirigir formulario creación puesto trabajo acción editar   eliminar . campo formulario marcado * carácter obligatorio caso   completarlo permitir crear / editar registro .   editar información
+
+crear / editar registro .   editar información puesto trabajo visualizar ficha dato relativo   puesto trabajo pestaña “ Trabajadores puesto ” “ Documentos ” .
+
+PESTAÑA documento   acceder pestaña usuario visualizar listado documento nivel zona .   acción pestaña indicado apartado   pestañar documento empresa .
+
+acceder cardboard Área mostrar listado área zona   trabajo . acceder cardboard necesario centro trabajo contexto .   listado mostrar defecto área activo siguiente   opción : buscador , filtrar , descargar listado , paginado , botón “ Área ” redirigir   formulario creación acción :   •   Editar : permitir acceder ficha área editar información .   •   Eliminar :
+
+ficha área editar información .   •   Eliminar : permitir eliminar registro área . eliminar área suponer   eliminación puesto trabajo formar .   campo formulario marcado * carácter obligatorio caso   completarlo permitir crear / editar registro .   editar información Área visualizar ficha área pestaña   “ Superficie ” , “ Puestos trabajo ” “ Documentos ” .
+
+PESTAÑA SUPERFICIES   usuario pestaña visualizar listado superficie vinculado área   seleccionado mostrar defecto superficie activo .    siguiente opción : buscador , filtrar , descargar listado , paginado   acción editar eliminar . eliminar superficie eliminar puesto   trabajo formar .   PESTAÑA puesto trabajo
+
+usuario pestaña visualizar listado puesto trabajo   ocupación agente material encontrar área seleccionado .    siguiente opción : buscador , filtrar , descargar listado , paginado , botón   “ ” redirigir formulario creación acción editar eliminar . campo   formulario marcado * carácter obligatorio caso completarlo   permitir crear / editar registro .   editar
+
+  permitir crear / editar registro .   editar información puesto trabajo visualizar ficha dato relativo   puesto trabajo pestaña “ Trabajadores puesto ” “ Documentos ” .
+
+PESTAÑA documento   acceder pestaña usuario visualizar listado documento nivel área .   acción pestaña indicado apartado   pestañar documento empresa .   superficie
+
+acceder cardboard Superficie mostrar listado superficie   creado cuyo ubicación superior área trabajo .   listado mostrar defecto superficie activo siguiente   opción : buscador , filtrar , descargar listado , paginado , botón “ Superficie ”   redirigir formulario creación acción :   •   Editar : permitir acceder ficha dato superficie editar información .   •   Eliminar : permitir
+
+superficie editar información .   •   Eliminar : permitir eliminar registro creado . eliminar superficie suponer   eliminación puesto trabajo formar .   campo formulario marcado * carácter obligatorio caso   completarlo permitir crear / editar registro .   editar información superficie visualizar ficha superficie   pestaña “ Puestos trabajo ” “ Documentos ” .
+
+PESTAÑA puesto TRABAJO   usuario pestaña visualizar listado puesto trabajo   superficie seleccionado ocupación agente material .
+
+72   siguiente opción : buscador , filtrar , descargar listado , paginado , botón “ ”   redirigir formulario creación puesto trabajo acción editar eliminar .    campo formulario marcado * carácter obligatorio caso   completarlo permitir crear / editar registro .   ficha dato puesto trabajo visualizar pestaña “ Trabajadores   puesto ” “ Documentos ” .   PESTAÑA DOCUMENTOS
+
+PESTAÑA documento   acceder pestaña usuario visualizar listado documento nivel   superficie . acción pestaña indicado   apartado pestañar documento empresa .   11 .   ubicación libre operativas
+
+11 .   ubicación libre operativas   usuario acceder cardboard Ubicaciones libre operativo contener cardboard   Actividad , Tarea Subtarea .    ubicación libre operativo pretender desglosar acción concreto realizar   desempeño ocupación .
+
+Home contener siguiente gráfico :   •   Centros trabajo : contador centro trabajo registrado .   •   Puestos trabajo : contador puesto trabajo registrado .   •   trabajador : contador trabajador registrado .   •   Distribución trabajador género : gráficar circular dato distribución   genero trabajador ubicación libre operativo : masculino / femenino .   colocar cursor segmento gráfico ,
+
+  colocar cursor segmento gráfico , mostrar número   trabajador perteneciente segmento . gráfico descargar .   •   Distribución trabajador rango edad : gráfico circular dato   mostrar distribución rango edad trabajador ubicación libre   operativo distribuido 5 rango definido . colocar cursor segmento   gráfico , mostrar número trabajador perteneciente segmento .
+
+número trabajador perteneciente segmento .   gráfico descargar .   •   Distribución centro trabajo : georreferenciador mostrar ubicación   centro trabajo mapa geolocalizador .
+
+acceder cardboard Actividad mostrar listado actividad   registrado ubicación superior , ocupación . acceder cardboard   necesario centro trabajo contexto .   listado siguiente opción : buscador , filtrar , descargar listado ,   paginado , botón “ Actividad ” redirigir formulario creación acción :   •   Editar : permitir acceder ficha dato actividad editar información .    •
+
+dato actividad editar información .    •   Eliminar : permitir eliminar registro actividad .    campo formulario marcado * carácter obligatorio caso   completarlo permitir crear / editar registro .   editar información actividad visualizar ficha dato pestaña   “ Tarea ” “ Documentos ” .
+
+PESTAÑA TAREA   usuario pestaña visualizar listado tarea vinculado   actividad seleccionado . listado siguiente opción : buscador , filtrar ,   descargar listado , paginado acción editar eliminar .   acceder pestaña usuario visualizar listado documento nivel actividad .   acción pestaña indicado apartado   pestañar documento empresa .
+
+acceder cardboard Tarea mostrar listado tarea   ubicación superior , actividad . acceder cardboard necesario centro   trabajo contexto .   listado siguiente opción : buscador , filtrar , descargar listado ,   paginado , botón “ Tarea ” redirigir formulario creación acción :   •   Editar : permitir acceder ficha dato tarea editar información .    •   Eliminar : permitir eliminar
+
+editar información .    •   Eliminar : permitir eliminar registro .   campo formulario marcado * carácter obligatorio caso   completarlo permitir crear / editar registro .   editar información tarea visualizar ficha dato pestaña   “ Subtarea ” “ Documentos ” .
+
+PESTAÑA subtarea   usuario pestaña visualizar listado subtarea vinculado   tarea seleccionado . listado siguiente opción : buscador , filtrar ,   descargar listado , paginado acción editar eliminar .   PESTAÑA DOCUMENTOS
+
+PESTAÑA documento   acceder pestaña usuario visualizar listado documento nivel tarea .   acción pestaña indicado apartado   pestañar documento empresa .
+
+acceder cardboard Subtarea mostrar listado subtarea   registrado tarea . acceder cardboard necesario centro trabajo   contexto .   listado siguiente opción : buscador , filtrar , descargar listado ,   paginado , botón “ Subtarea ” redirigir formulario creación acción   editar eliminar . campo formulario marcado * carácter obligatorio   caso completarlo
+
+carácter obligatorio   caso completarlo permitir crear / editar registro .   editar información subtarea visualizar ficha dato pestaña   “ Documentos ” .
+
+PESTAÑA documento   acceder pestaña usuario visualizar listado documento nivel subtarea .   acción pestaña indicado apartado   pestañar documento empresa .
+
+usuario ingresar cardboard Perfiles empresa mostrar pantalla listado   trabajador usuario registrado plataforma .   listado siguiente opción : buscador , filtrar , descargar listado , paginado   acción editar . ficha dato cargar avatar , firma dato   interés .
+
+usuario ingresar cardboard Agentes Materiales visualizar listado agente   material . empresa contexto visualizar agente material empresa ,   cambio , empresa centro contexto visualizar agente material centro   trabajo seleccionado . campo formulario marcado * carácter obligatorio   caso completarlo permitir crear / editar registro .   listado siguiente opción : buscador , filtrar ,
+
+siguiente opción : buscador , filtrar , descargar listado ,   paginado , botón “ Carga masivo ” permitir carga masivo   importador función tipo agente material botón “ ” redirigir   formulario creación acción :     •   Editar : permitir acceder ficha agente material editar información .   editar información agente material visualizar ficha dato   pestaño “ Adaptaciones ” ,
+
+ficha dato   pestaño “ Adaptaciones ” , “ Restricciones ” “ Documentos ” .   •   Eliminar : permitir eliminar registro . eliminar agente material ,   eliminar adaptación , finalizar relación   trabajador estar usar agente material , disponer   relación . caso existir trabajador relacionado   ubicación eliminar , finalizar relación manteniéndola
+
+finalizar relación manteniéndola   histórico eliminándola forma definitivo .
+
+añadir Agente Material , formulario variación depender tipo   agente material seleccionado , excepción tipo agente “ ” .    seleccionar :   1 . tipo AM AGENTE EQUIPO/ MÁQUINA : añadir apartado :   •   Datos técnico campo :   •   Marca   •   Modelo   •   Número serie   •   Fecha fabricación   •   Fecha adquisición   •   Cuestionario técnico campo :   •   ¿ disponer marcado CE ?   •   ¿ disponer puesta conformidad ?   •
+
+marcado CE ?   •   ¿ disponer puesta conformidad ?   •   ¿ disponer adaptación / mejor ?   •   ¿ propiedad empresa externo ?
+
+86   •   Empresa externo ( función respuesta pregunta ( ) )   •   ¿ requerir formación específico ?   •   ¿ requerir mantenimiento ?   2 . tipo AM AGENTE QUÍMICO : añadir campo :    •   Nombre agente químico – Número CAS : Muestra listado agente químico .   seleccionar agente , formulario desplegar apartado Datos : [ Nombre   agente químico seleccionado ] mostrar ficha seguridad agente .
+
+3 . tipo AM AGENTE VEHÍCULO : añadir apartado :   •   Datos técnico campo :   •   Marca   •   Modelo   •   Número serie   •   Fecha fabricación   •   Fecha adquisición   •   Cuestionario técnico campo :   •   ¿ requerir marcado CE ?   •   ¿ disponer marcado CE ?   •   ¿ disponer puesta conformidad ?   •   ¿ propiedad empresa externo ?   •   Empresa externo   •   ¿ requerir formación específico ?   •   ¿ Circula vía público ?
+
+88   •   Matrícula   •   ¿ requerir mantenimiento ?   acceder pestaña usuario visualiza registrar adaptación   agente material . listado contener opción búsqueda , filtrado ,   paginado , botón “ ” redirigir formulario creación adaptación   acción editar eliminar . campo formulario marcado * carácter   obligatorio caso completarlo permitir crear / editar registro .
+
+pestaña restricción
+
+pestaña usuario definir agente material apto persona   sensibilidad especial mostrar listado restricción agente   material afectar salud trabajador .   listado especificar   restricción agente material siguiente opción : buscador ,   filtrar , paginado , descargar listado , acción eliminar botón “ añadir restricción ”   abrir ventana lateral
+
+“ añadir restricción ”   abrir ventana lateral restricción predefinida , factor , descripción   limitación .
+
+PESTAÑA documento   acceder pestaña usuario visualizar listado documento disponible nivel   Agentes Materiales . acción pestaña indicado   apartado pestañar documento empresa .

@@ -1,0 +1,95 @@
+Versión   Fecha   Comentarios   Autor   1.0   29/09/2022   Redacción   Núria Zaragoza
+
+Sabentis plataforma gestión especializado ámbito Seguridad Salud   Trabajo adaptado tecnología modelo gestión   prevención .    plataforma distinto tipo auditoría objetivo , figurar   evaluación Estándares Internacionales ( ISO ) Metodología 5s , responder   conjunto norma , requisito procedimiento reflejar imagen sistema   prevención riesgo laboral
+
+sistema   prevención riesgo laboral empresa .
+
+usuario acceder módulo Auditorías :   •   entrada menú lateral plataforma .   •   cardboard “ Auditorías ” panel principal . requerir empresa   contexto .   5   •   Diagnósticos ISO .   •   Metodología 5s.   •   Planificación ejecución medida .   •   Comparativa estudio .   , visualizar dashboard contener dato estadístico . gráfico   descargar mostrar información :
+
+Gráfica   Descripción   conformidad identificado   cumplir vs cumplir   Gráfica circular indicar cumplimiento conformidad   identificado .   medida   Gráfica dato circular determinar número medida   gestión .   vencimiento medida   Gráfica línea vencimiento fecha medida 6 mes ,   área tipo vencimiento ( aprobación , validación ,   implementación , verificación , etcétera ) .
+
+usuario acceder cardboard “ Diagnósticos ISO ” visualizar pantalla conjunto   estándar reconocimiento internacional objetivo ayudar empresa   establecer nivel homogeneidad relación gestión , prestación   servicio desarrollo producto industria .    •   ISO 45001 : Sistemas gestión SST .   •   ISO 14001 : Sistemas gestión ambiente .   •   ISO 9001 : Sistemas gestión calidad .   •   ISO 39001 : Sistemas
+
+Sistemas gestión calidad .   •   ISO 39001 : Sistemas gestión seguridad vial .   •   ISO 37001 : Sistemas gestión antisoborno .   •   ISO 22301 : Sistemas gestión continuidad negocio .   •   ISO 26000 : Guía responsabilidad social .   •   ISO 50001 : Sistemas gestión energía .
+
+listado estudio ISO crear estudio acceder   botón “ evaluación ” . campo formulario marcado * carácter   obligatorio caso completir crear / editar registro   evaluación . formulario seleccionar cuestionario querer evaluar .   defecto aparecer marcado selección concreto   finalidad estudio parcial
+
+  finalidad estudio parcial específico . crear estudio   existir vigente abierto . caso plataforma mostrar   mensaje indicar crear estudio .
+
+creado estudio pestaño “ Datos evaluación normativa ” habilitar   botón “ eliminar evaluación normativa ” permitir eliminar estudio   ficha dato . listado eliminar estudio . adicionalmente ,   habilitar pestaña : Evaluación aspecto legal , Plan acción , Gráfica resultado ,   Resumen , Generar documentación Documentos ( pestaña habilitar cerrar   evaluación ) .
+
+evaluación aspecto legales :
+
+pestaño evaluación aspecto legal permitir usuario evaluar cuestionario   aplicable evaluación . aparecer cuestionario usuario seleccionar   previamente pestaña “ Datos evaluación normativa ” , finalidad   estudio parcial específico . completar evaluación aspecto legal ,   ítem estándar disponer opción respuesta : cumple/   cumple/ aplicar .
+
+variable respuesta vínculo “ ” habilitar ventana   lateral contener información asociado cuestión seleccionado .   opción “ Añadir archivo ” habilitar conforme completar evaluación permitir   cargar pregunta 5 archivo evidencia .
+
+pantalla barra mostrar porcentaje avance evaluación   aspecto legal actualizar conforme guardar dato . descargar   permitir guardado parcial significar salir funcionalidad ,   finalizar evaluación , perder avance previamente guardado .
+
+13   evaluar totalidad ítems estándar , pantalla sustituir   botón “ Guardar ” botón “ Finalizar evaluación ” permitir guardar respuesta ,   bloquear cuestionario respuesta definido .
+
+generalmente , configuración establecido , ítem evaluación marcado   opción “ cumplir ” , generar conformidad , visualizar pestaña “ Plan   acción ” . visualizar finalizar evaluación ; realizar   14   guardado parcial mostrar conformidad independientemente   respuesta “ cumplir ” .   PLAN ACCIÓN
+
+PLAN ACCIÓN   pestaña mostrar listado conformidad resultado evaluación   aspecto legal previamente finalizado : ítem estándar marcado respuesta   “ cumplir ”  pestaña previo . listado opción búsqueda , añadir   filtro , configurar columna , paginado , botón Volver acción editar redirigir ficha   conformidad .
+
+ficha conformidad mostrar apartado :   •   Datos conformidad : Muestra dato referente conformidad ,   único campo editar apartado “ Cumple ” , defecto ,   mostrar marcado “ cumplir ” . campo editable marcar   “ Cumple ” haber implementar medida asociado   conformidad .
+
+•   medida correctivo : apartado mostrar medida correctivo añadido   usuario configurada automático permitir   gestión medida llegar Cerrada . campo formulario   marcado * carácter obligatorio . caso completarlo   permitir añadir medida . ( Manual gestión medida ) .   gráfico resultado
+
+gráfica resultado   pestaña “ Gráficas resultado ” mostrar tipo gráfico . precisa   resultado porcentaje cumplimiento estándar   referencia porcentaje cumplimiento ciclo .   gráfica superior disponer componente transversal nivel   plataforma permitir usuario siguiente acción :
+
+17   •   Refrescar : Herramienta permitir actualizar gráfico .   •   descargar imagen : permitir descargar información visualizado gráfica .   •   Exportar hoja cálculo : permitir descargar información hoja cálculo .
+
+pestaña mostrar síntesis información correspondiente proceso   evaluación aspecto legal estudio . pestaña cerrar evaluación   botón " cerrar evaluación " habilitar únicamente usuario   establecer , , medida correctivo conformidad .   GENERAR DOCUMENTACIÓN
+
+pestaño generar documentación habilitar cerrar estudio pestaña   resumen . pantalla generar informe evaluación normativa   formato PDF adjuntar archivo caso necesario . informe   evaluación generar forma ilimitado .   descargar informe clicar directamente nombre   autoevaluación ( link azul ) . listado opción búsqueda , añadir filtro ,
+
+opción búsqueda , añadir filtro ,   configurar columna , paginado botón Guardar .
+
+pestaña Documentos habilitar cerrar estudio pestaña   resumen mostrar pantalla informe evaluación .
+
+usuario acceder cardboard “ Metodología 5s ” visualizar listado auditoría   realizado Metodología 5s. evaluación basado 5 principio facilitar   dinámica trabajo mejorar aspecto : espacio trabajo ,   organización , higiene , norma dinámica convivencia empresa .
+
+evaluación :   •   Abierto : indicar estudio cerrar evaluar   totalidad ítems estándar .   •   Cuestionario finalizado : indicar responder totalidad ítems   estándar evaluar , estudio cerrar .   •   Vigente : indicar estudio cerrar llegar fecha   expiración .   •   Expirado : cerrar evaluación expirar listado .   listado
+
+expirar listado .   listado opción : buscador , añadir filtro , descargar listado , paginado ,   botón evaluación redirigir formulario creación evaluación ,   acción :   •   Datos estudio : Redirige ficha estudio .   •   evaluación : Redirige pestaño Evaluación aspecto legal .   •   plan acción : Redirige pestaña “ Plan acción ” .   •   expirar estudio : cambiar estudio Abierto / Vigente Expirado
+
+cambiar estudio Abierto / Vigente Expirado (   estudio expirar , acción mostrar ) .   •   eliminar evaluación : permitir eliminar estudio .
+
+22   listado estudio Metodología 5s crear estudio   acceder botón “ evaluación ” . campo formulario marcado *   carácter obligatorio complementar permitir crear / editar   registro evaluación . formulario seleccionar cuestionario evaluar -por   defecto aparecer marcados- escoger evaluar   estudio parcial
+
+evaluar   estudio parcial específico . crear estudio   existir vigente abierto . caso plataforma   mostrar mensaje indicar crear estudio .
+
+creado estudio pestaño “ Datos evaluación normativa ” habilitar   botón “ eliminar evaluación normativa ” permitir eliminar estudio   ficha dato . listado eliminar estudio . adicionalmente ,   habilitar pestaña : Evaluación aspecto legal , Plan acción , Gráfica resultado ,   Resumen , Generar documentación Documentos . ( pestaña habilitar cerrar   evaluación ) .
+
+24   evaluación aspecto legal   pestaño evaluación aspecto legal permitir usuario evaluar cuestionario   aplicable . aparecer seleccionar previamente pestaño “ Datos   evaluación normativa ” .   completar evaluación aspecto legal ,   ítem estándar disponer campo disponer opción respuesta :   cumple/ cumple/ aplicar .
+
+variable respuesta vínculo “ ” habilitar ventana   lateral contener información asociado ítem estándar seleccionado .   opción “ Añadir archivo ” habilitar conforme completar evaluación permitir   cargar , pregunta , 5 archivo evidencia .
+
+pantalla barra mostrar porcentaje avance evaluación   aspecto legal . actualizar conforme guardar dato descargar .   26   pantalla permitir guardado parcial significar salir   funcionalidad , finalizar evaluación , perder avance previamente   guardado .
+
+evaluar totalidad ítems estándar , pantalla sustituir botón   “ Guardar ” botón “ Finalizar evaluación ” permitir guardar respuesta   bloquear cuestionario respuesta definido .
+
+generalmente , configuración establecido , ítem evaluación marcado   opción “ cumplir ” , generar conformidad visualizar pestaña “ Plan   acción ” . visualizar finalizar evaluación . guardar   parcial mostrar conformidad independientemente respuesta   “ cumplir ” .   PLAN ACCIÓN
+
+PLAN ACCIÓN   pestaña mostrar listado conformidad resultado evaluación   aspecto legal finalizado -lo ítem estándar marcado “ cumplir ”  pestaña   previa- . listado opción búsqueda , añadir filtro , configurar   columna , paginado , botón Volver acción editar redirigir ficha   conformidad .
+
+ficha conformidad mostrar apartado :   •   Datos conformidad : Muestra dato referente conformidad .   único campo editar apartado campo “ Cumple ”   defecto mostrar marcado “ cumplir ” . campo editable   marcar “ Cumple ” haber implementar medida asociado   conformidad .
+
+•   medida correctivo : Muestra dato referente conformidad .   único   campo editar apartado campo “ Cumple ” defecto   mostrar marcado “ cumplir ” . campo editable marcar   “ Cumple ” haber implementar medida asociado   conformidad .   gráfico resultado
+
+pestaña “ Gráficas resultado ” mostrar tipo gráfica función tipo   estudio . precisa resultado porcentaje cumplimiento estándar   gráfico referencia porcentaje cumplimiento ciclo .   gráfico siguiente acción :   •   Refrescar : Herramienta permitir actualizar gráfico .   •   descargar imagen : permitir descargar información visualizado gráfica   formato .png .   •
+
+visualizado gráfica   formato .png .   •   Exportar hoja cálculo : permitir descargar información hoja cálculo .
+
+pestaña mostrar síntesis información correspondiente proceso   evaluación aspecto legal estudio . cerrar evaluación botón   “ Cerrar evaluación ” habilitar únicamente usuario establecer ,   , medida correctivo conformidad .   GENERAR DOCUMENTACIÓN
+
+GENERAR DOCUMENTACIÓN   pestaño generar documentación habilitar cerrar estudio pestaña   resumen . pantalla generar informe evaluación normativa   formato PDF adjuntar archivo caso necesario . informe   evaluación generar forma ilimitado .
+
+33   descargar informe clicar directamente nombre   autoevaluación ( link azul ) . listado opción búsqueda , añadir filtro ,   configurar columna , paginado botón Guardar .   documentación   pestaña Documentos habilitar cerrar estudio pestaña   resumen mostrar pantalla informe evaluación .   5 . planificación ejecución MEDIDAS
+
+5 . planificación ejecución MEDIDAS   usuario acceder cardboard “ Planificación ejecución medida ” visualizar listado   consolidación conformidad abordar plan   acción objeto eliminar incumplimiento requisito .   listado opción : buscador , añadir filtro , descargar listado , paginado   acción editar , permitir acceder conformidad .   36   6 . comparativo estudio :
+
+36   6 . comparativo estudio :   usuario acceder cardboard “ Comparativa estudio ” visualizar campo   selección . comparativa estudio querer , seleccionar   Decreto estudio comparar . seleccionado habilitar gráfico .
+
+37   gráfica superior disponer componente transversal nivel   plataforma permitir usuario siguiente acción :   •   Refrescar : Herramienta permitir actualizar gráfico .   •   descargar imagen : permitir descargar información visualizado gráfica .   •   Exportar hoja cálculo : permitir descargar información hoja cálculo .

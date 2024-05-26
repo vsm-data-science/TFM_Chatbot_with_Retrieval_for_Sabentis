@@ -1,0 +1,31 @@
+dato DOCUMENTO   HISTÓRICO cambio   contenido   Sabentis plataforma gestión especializado ámbito Seguridad Salud   Trabajo adaptado tecnología modelo gestión   prevención .    plataforma disponer módulo Información documentado almacenar   documento cargado generado empresa módulo   plataforma .   2 . sabentis : información DOCUMENTADA
+
+2 . sabentis : información DOCUMENTADA   usuario acceder módulo “ Información Documentada ” , :   •   entrada menú lateral plataforma .   •   cardboard “ Información documentado ” panel principal .   5   clicar menú lateral cardboard , usuario redirigir home   módulo , visualizar cardboard “ Gestión plantilla documento “   “ Repositorio documental empresa ” .   3 . repositorio documental empresa
+
+usuario acceder cardboard “ Repositorio documental ” visualizar listado contener   archivo generado empresa módulo   plataforma , ejemplo :   •   Estructura organizativo : visualizar archivo añadido pestaña   “ Documentos ” ubicación módulo .   •   Identificación peligro evaluación riesgo : visualizar Informe   evaluación riesgo .   •   Auditorías : visualizar informe
+
+riesgo .   •   Auditorías : visualizar informe auditoría .   •   Planes emergencia : visualizar informe plan emergencia .   •   Políticas seguridad salud trabajo .   •   equipo protección personal : visualizar Informe EPP .   •   Inspecciones seguridad : visualizar informe inspección   tipo inspección definido plataforma .
+
+6   •   Ausentismo : visualizar archivo añadido pestaña “ Documentación ”   componente módulo .   •   Formaciones : mostrar archivo adjuntar momento crear   curso .
+
+independientemente usuario crear listado mostrar   archivo empresa vigente expirado , listado opción :   buscador , añadir filtro , paginado acción :   •   Descargar : permitir descargar archivo .   •   Editar : permitir acceder formulario cargar archivo editar / completar   dato .   •   Eliminar : usuario logado eliminar documento . documento   generado usuario mostrar
+
+documento   generado usuario mostrar ícono eliminar .
+
+listado documento mostrar columna “ Tags ” ( palabra clave asignado dato   almacenado repositorio ) , añadir etiqueta   identificar documento . caso documento generado módulo Estructura   organizativo , defecto , mostrar siguiente tag :   •   Documentos Empresa : Empresa .   •   Documentos Centros trabajo : Centro trabajo , [ Nombre centro ]   •   Documentos trabajador : [ nombre trabajador ] ,
+
+•   Documentos trabajador : [ nombre trabajador ] , Trabajador   •   Documentos Lugares : [ Nombre centro ] , [ Nombre lugar ] , Área trabajo .   •   Documentos Procesos : [ nombre proceso ] , Ocupación .
+
+asimismo funcionalidad :   •   Ficheros cargado pregunta Audit / Inspecciones : tag mostrado   preguntar carguir fichero .   •   Ficheros carguir home principal : tag mostrado pregunta   carguir fichero .   •   Ficheros subir medida : tag mostrado “ Medida control ” .
+
+documento tipo informe ( Informe plan emergencia , informe inspección , etc )   generado plataforma predeterminado Origen Internos ,   mostrar información columna fecha vigencia , campo completar   acceder acción Editar .   caso empresa completar plan prevención , opción “   panel principal ” enlistacer ítem cuestionario añadir documento .   clicar
+
+añadir documento .   clicar opción editar mostrar formulario carga documento .
+
+4 . gestión plantillas DOCUMENTOS
+
+usuario acceder cardboard “ Gestión plantilla documento ” visualizar listado   plantilla empresa disposición . acceder cardboard necesario   empresa contexto .   listado opción búsqueda , añadir filtro , añadir / quitar columna ,   paginado , botón exportación , botón “ Añadir plantilla ” redirigir formulario carga   plantilla , acción :   •   Editar : Redirige ficha editar
+
+•   Editar : Redirige ficha editar configuración plantilla .   •   Descargar : permitir descargar plantilla listado .   •   Eliminar : permitir eliminar registro existente listado plantilla .
+
+añadir plantilla plataforma , usuario completar información   plantilla configurar ubicación , empresa poder acceder . campo   marcado * obligatorio .   completar dato información solicitado usuario habilitar   plantilla utilizar .

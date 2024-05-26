@@ -1,0 +1,81 @@
+dato DOCUMENTO   HISTÓRICO cambio   Documento   Manual módulo IER PYMES .   Descripción   Documento guía módulo IER , modelo PYMES .   Versión   1.2   Fecha modificación   06/02/2023   Actualizado   Víctor Andrade Peláez   aprobado   Versión   Fecha   Comentarios   Autor   Versión 1.0   15/06/2022   Actualización   Miguel Ángel Moreno   Versión 1.1   28/10/2022   Actualización   Mercedes León   Versión 1.1   06/02/2023   Actualización   Víctor Andrade   contenido
+
+Sabentis plataforma gestión especializado ámbito seguridad salud   trabajo , adaptado tecnología modelo gestión   prevención riesgo .    módulo Identificación Evaluación Riesgos IER , permitir empresa   establecer procedimiento lógico valoración riesgo implícito proceso ,   permitir fijar estrategia gestión administrativo / operativo permitir controlar ,   reducir
+
+/ operativo permitir controlar ,   reducir eliminar riesgo .
+
+2 . identificación evaluación RIESGOS ( IER )
+
+identificación evaluación riesgo proceso técnico inicial materia seguridad   salud trabajo , basar gestión preventivo empresa .   actividad objetivo analizar elemento componer espacio físico ,   actividad desarrollar estimar valorar   daño producir conjunto factor tiempo determinado , finalmente ,   determinar medida acción
+
+, finalmente ,   determinar medida acción concreto prevenir ocurrencia accidente   trabajo / enfermedad profesional .
+
+usuario acceder módulo identificación evaluación riesgo ( IER )   empresa seleccionado contexto , :   •   entrada menú lateral plataforma .   •   cardboard “ Identificación Evaluación Riesgos ” .   clicar menú lateral cardboard , usuario redirigir Home   módulo , visualizar siguiente cardboard :
+
+usuario ingresar cardboard “ Evaluaciones ” visualizar listado evaluación   empresa . abierto cerrado .   campo formulario marcado * carácter obligatorio . caso   completar permitir crear / guardar registro evaluación .   listado opción : buscador , añadir filtro , descargar listado , paginado ,   botón “ evaluación ” redirigir formulario creación
+
+evaluación ” redirigir formulario creación evaluación ,   acción :
+
+gráfico   descripción   Riesgos evaluado vs   riesgo evaluado   Gráfica dato circular mostrar número riesgo evaluado ,   frente riesgo evaluar . gráfica   descargar .   Riesgos evaluado   nivel riesgo inicial   Gráfica dato circular mostrar número riesgo nivel   ( Trivial , Tolerable , Moderado , Importante Intolerable ) . gráfica   descargar .    Riesgos evaluado   nivel riesgo residual   Gráfica
+
+Riesgos evaluado   nivel riesgo residual   Gráfica dato circular mostrar número riesgo nivel   riesgo residual , reevaluación ( Trivial , Tolerable , Moderado ,   Importante Intolerable ) . gráfica descargar .   medida tipo   medida   Gráfica dato circular determinar número medida   jerarquía control . gráfica descargar .   medida   Gráfica dato circular determinar número medida  
+
+circular determinar número medida   gestión . gráfica descargar .   vencimiento   medida   Gráfica línea vencimiento fecha medida 6 mes ,   área tipo vencimiento , ( validación , implementación ,   verificación ) . gráfica descargar .
+
+7   •   Datos evaluación : Redirige ficha evaluación .   •   evaluación : Redirige pestaña “ Evaluación ubicación ” .   •   medida control : Redirige pestaña “ Medidas preventivo / correctiva ” .   •   eliminar evaluación : permitir eliminar registro .
+
+pestaño Datos evaluación habilitar botón “ Cerrar evaluación ”   evaluación .    creado registro evaluación , habilitar pestaña :     •   Evaluación ubicación    •   Medidas preventivo / correctiva   •   Documentos   Nota : cerrar evaluación acceder visualizar información ,   gestionar información .   evaluación ubicación
+
+evaluación UBICACIONES   acceder pestaña usuario visualizar subpestaña ubicación   estructura organizativo seleccionar crear registro evaluación . caso   ubicación seleccionado “ Empresa ” mostrar automáticamente listado   riesgo predefinido plataforma .
+
+caso ubicación seleccionado Centro trabajo ubicación   ( Lugares Trabajo , Ocupaciones , Puestos Trabajo , Agentes Materiales , Actividades , etc ) ,   mostrar ícono ( + ) .    clicar opción desplegar pantalla lateral listado centro ubicación   seleccionado .
+
+seleccionar ubicación listado , usuario :   •   búsqueda , añadir / quitar columna , aplicar filtro columna listado   autocalcular , descargar listado .   •   Acciones : Identificar Evaluar .   •   cambiar ubicación evaluar .   11   •   aplicar filtro categoría riesgo : “ Accidentes Trabajo AT . ” “ Enfermedades   Profesionales EE.PP . ”   •   Aplicar filtro riesgo : Identificado Descartado .
+
+columna acción identificar evaluar riesgo . inicialmente riesgo   mostrar “ Descartado ” . riesgo evaluar previamente haber él   identificar finalizar evaluación mostrar “ Identificado ” .   identificar riesgo , mostrar “ Identificado ” ,   evaluar mostrar acción “ Medidas ” permitir añadir medida .
+
+clicar opción “ Evaluar ” , desplegar pantalla lateral formulario evaluación   riesgo . campo formulario marcado * carácter obligatorio . caso ,   conforme completar , mostrar campo evaluación determinar   nivel riesgo .   2 .   seleccionar valor campo “ Consecuencia ” . finalmente mostrar valor   “ Nivel Riesgo ” . guardar formulario dato reflejar listado .
+
+riesgo RESIDUAL :   apartado riesgo residual mostrar formulario evaluación   evaluar riesgo . opción volver evaluar riesgo   implementar medida preventivo / correctivo .
+
+clicar botón “ Medidas ” redirigir ventana lateral mostrar listado   medida preventivo / correctivo . listado usuario :   •   añadir medida manualmente botón “ añadir medida ” .   •   añadir medida predefinida plataforma botón “ Añadir   biblioteca ” .   •   Editar : usuario formulario medida pestaño Medidas   preventivo / correctivo . campo formulario marcado * carácter   obligatorio ,
+
+formulario marcado * carácter   obligatorio , caso completarlo permitir añadir medida .   •   Eliminar : permitir eliminar medida independiente añadir   manualmente biblioteca , estar “ Cerrada ” .
+
+Duplicar : clic opción , abrir ventana lateral mostrar opción   duplicar riesgo cuestión . acción permitir usuario valorar riesgo   ubicación .   añadir duplicado añadir automáticamente listado usuario   evaluar él guardar él .   20   MEDIDAS PREVENTIVAS correctivas
+
+20   MEDIDAS PREVENTIVAS correctivas   usuario acceder pestaña siguiente forma :   •   clicar botón “ Formulario Completo ” ubicado inferior   formulario resumen medida , usuario redirigir formulario completo medida .
+
+•   formulario , usuario añadir documento relacionado   medida preventivo / correctora querer planificar . documento   aportar apartado añadir automáticamente repositorio documental   empresa .   •   acceder directamente pestaña usuario visualizar listado medida   establecido resultado evaluación riesgo   ubicación .
+
+22   listado opción : Buscador , añadir filtro , descargar listado , paginado ,   botón Volver , permitir filtrar medida .
+
+formulario , asociar Contingencias Profesionales ( Enfermedades   Profesionales Accidentes Trabajo ) Medidas Preventivas / Correctivas .    1 .   previamente verificar existir registro contingencia módulo   ausentismo . registro aparecer pestaña Contingencias Asociadas ,   módulo IER , añadir Medidas Preventivas / Correctoras existente .   documento
+
+usuario acceder pestaño Documentos visualizar listado informe generado tal   : documento evaluación riesgo notificación riesgo trabajador .   pantalla usuario generar n informe formato   independiente evaluación finalizar . botón Generar informe ,   redirigir pantalla usuario , escoger tipo informe desear   generar . documento
+
+tipo informe desear   generar . documento generado módulo añadir automáticamente   repositorio documental empresa .
+
+usuario acceder cardboard “ Riesgos ubicación ” visualizar campo “ Tipo   ubicación ” desplegar ubicación estructura organizativo .   seleccionado tipo ubicación mostrar campo “ Ubicación físico ” , clicar ( + )   mostrar pantalla lateral listado ubicación .
+
+seleccionar ubicación físico listar riesgo identificado estudio   realizado ubicación . pantalla informativo , tipo   gestión . usuario visualizar riesgo presente ubicación seleccionado .   28   caso seleccionar ubicación “ Empresa ” , desplegar pestaña lateral ,   mostrar automáticamente riesgo identificado evaluado empresa .
+
+usuario acceder cardboard “ Riesgos trabajador ” , visualizar campo “ Trabajador ” ,   listar trabajador empresa . seleccionar trabajador enlistar   riesgo identificado evaluación realizado ubicación   trabajador relación .
+
+pantalla informativo , tipo gestión . usuario   visualizar riesgo presente ubicación trabajador seleccionado   relación .
+
+concepto herencia riesgo referencia riesgo trabajador   expuesto motivo relación distinto ubicación   empresa ( ubicación físico operativo ) .      herencia funcionar distinto depender provenir ubicación físico   operativo . caso , herencia seguir dirección “ abajo ” .   , nivel alto estructura organizativo
+
+nivel alto estructura organizativo nivel bajo .   contrario , caso ubicación operativo , considerar .   ejemplo , trabajador empresa afectar riesgo evaluado :    estructura físico :    •   riesgo evaluado empresa pertenecer .    •   riesgo evaluado centro pertenecer .    •   riesgo evaluado lugar trabajo relación puesto cuyo   ubicación físico
+
+relación puesto cuyo   ubicación físico lugar trabajo .    •   riesgo evaluado puesto trabajo relacionado .
+
+31   Estructura operativo :    •   riesgo evaluado ocupación puesto relacionado .    •   riesgo evaluado actividad ocupación puesto   relacionado .    •   riesgo evaluado tarea actividad punto .    •   riesgo evaluado subtarea tarea punto .
+
+herencia visualizar listado riesgo vista trabajador , “ Riesgos   persona ” “ Riesgos ubicación ” .
+
+usuario acceder cardboard “ Configuración ” , configuración   metodología evaluación riesgo utilizar empresa .   seleccionar metodología , aplicar ubicación estructura   organizativo . usuario cerciorar metodología seleccionado correcto ,   existir registro evaluación , cambiar . guardar   configuración , consideración
+
+  configuración , consideración comportamiento campo   formulario “ Evaluación ” :   •   Metodología evaluación : permitir elegir metodología aplicar   evaluación riesgo identificado .   •   Vigencia evaluación : información definido campo establecer   automáticamente periodo vigencia evaluación riesgo fecha   registrar plataforma .   •   Responsable : permitir elegir
+
+plataforma .   •   Responsable : permitir elegir personal responsable correcto desarrollo   evaluación riesgo .   •   Evidencia Implementación Medidas : seleccionar opción “ Obligatorias ”   cambiar Medida Preventiva / Correctora Implementada ,   existir , mínimo , archivo cargado . caso seleccionar opción “ Opcional ” ,   cambiar medida archivo asociado .

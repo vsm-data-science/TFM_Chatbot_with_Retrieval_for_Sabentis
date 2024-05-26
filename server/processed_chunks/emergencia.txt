@@ -1,0 +1,127 @@
+Versión   Fecha   Comentarios   Autor   Preliminar 0.1   20/10/2020   Redacción   Jacobo Jaime   Versión 1.0   14/12/2021   Actualización   Mercedes León   Versión 1.1   19/09/2022   Actualización   Núria Zaragoza Trabal   Versión 2.0   17/10/2022   Actualización   Mercedes León Chele   Versión 2.0   06/02/2023   Actualización   Víctor Andrade
+
+Sabentis plataforma gestión especializado ámbito Seguridad Salud   Trabajo adaptado tecnología modelo gestión   prevención .     plataforma disponer módulo cabo gestión emergencia   centro trabajo , confeccionar plan emergencia completo definir   equipo emergencia evaluar posible amenaza . módulo   incluir posibilidad registrar
+
+módulo   incluir posibilidad registrar evaluar emergencia real ocurrido simulacro   efectuado .
+
+¿ PLAN EMERGENCIA ?   pestaño evaluación aspecto legal permitir usuario evaluar cuestionario   aplicable evaluación . aparecer cuestionario usuario seleccionar .
+
+Plan Emergencia documento recoger respuesta   organización trabajador situación emergencia , confección   equipo respuesta intervención , evaluación amenaza potencial medida   protección cabo .   Plan Emergencias proporcionar ocupante   instalación , herramienta necesario planear , organizar , dirigir controlar   evento súbito
+
+dirigir controlar   evento súbito peligro estabilidad organización punto   vista humano , material ambiental .   objetivo Plan :   •   identificar condición actual recurso existente , necesario   respuesta inicial emergencia .   •   Analizar amenaza interno externo , determinar vulnerabilidad   afrontar emergencia .   •   Establecer medida necesario destinado mejorar
+
+establecer medida necesario destinado mejorar condición reducir   nivel vulnerabilidad .   •   establecer procedimiento reacción tipo emergencia   instalación actual reacción frente principal amenaza identificado .
+
+5   •   Establecer mantener esquema organización interno , confeccionar   equipo respuesta intervención frente emergencia .   •   minimizar pérdida material ambiental derivado   situación emergencia poder presentar .   •   Minimizar riesgo desencadenar emergencia , control   .    •   Restablecer ritmo normal trabajo brevedad .   ¿ SIMULACRO ?
+
+simulacro ensayo ejercicio adiestramiento práctico actuar caso   emergencia , cuyo realización permitir comprobar real adecuación   previsto Plan emergencia organización necesidad existente servir ,   mayoría ocasión , identificar cabo actividad mejora   procedimiento establecido medio instalación .   simulacro emergencia ejercicio práctico
+
+simulacro emergencia ejercicio práctico implicar participación   personal caso involucrar medio externo poder   bombero , protección civil , policía personal sanitario .    realización periódico simulacro , mínimo año , pretender   cabo activación plan emergencia previo aviso momento   comprobar resultado participación eficiente
+
+resultado participación eficiente grupo trabajador   implicado , crear hábito respuesta organizado operativo   adiestramiento práctico .   objetivo simulacro verificación comprobación :   •   eficacia organización respuesta emergencia .   •   capacitación personal organización .   •   entrenamiento personal respuesta frente emergencia .   •   suficiencia idoneidad
+
+frente emergencia .   •   suficiencia idoneidad medio recurso asignado .
+
+6   2 . sabentis : módulo plan emergencia   usuario acceder módulo “ Planes emergencia ” , :    •   entrada menú lateral plataforma .   •   cardboard “ Planes emergencia ” .   7   visualizar dashboard contener dato estadístico , gráfica mostrar   información :
+
+Gráfica   Descripción   Número centro plan   emergencia vigente   Contador . Centros trabajo plan emergencia   “ Vigente ” centro empresa .   Peligros nivel riesgo   Gráfica dato . Gráfica circular dato distribución   amenaza evaluada plan emergencia vigente nivel   riesgo obtenido : evaluado / / / Alto / alto .   medida   Gráfica dato . Gráfica circular dato
+
+  Gráfica dato . Gráfica circular dato distribución   medida correctivo definido plan emergencia vigente   : Pendiente planificar / Pendiente evidencia /   Implementada .
+
+usuario acceder cardboard “ Planes emergencia ” visualizar listado contener   plan emergencia centro trabajo empresa Vigente ,   vigente elaboración . existir plan emergencia vigente   centro trabajo .   •   elaboración : inicial posterior registro Plan emergencia .   •   Vigente : indicar plan completado vigor   centro trabajo .   •  
+
+completado vigor   centro trabajo .   •   vigente : pasar plan emergencia vigente   plan pasar vigente sustituir actual .
+
+listado opción : buscador , añadir filtro , descargar listado , paginado ,   botón plan redirigir formulario creación plan emergencia ,   acción :   •   Editar : permitir acceder registro .   •   Eliminar : Elimina registro plan emergencia , independientemente   . ( Vigente / elaboración / vigente ) .   9   DATOS PLAN EMERGENCIA
+
+formulario registro Planes emergencia dividido apartado .   •   Apartado Información plan emergencia : apartado formulario   contener información común plan emergencia . información registrado   campo fecha inicio vigencia modificar plan forma   automático ; inicio vigencia acción directo usuario .   •   Apartado Información centro trabajo : contener
+
+•   Apartado Información centro trabajo : contener información relativo   centro trabajo registrar plan emergencia .    •   Apartado Ocupación : contener información relativo ocupación persona   centro trabajo registrar plan .    •   Apartado Conectividad centro trabajo : contener información relativo   conectividad disponer centro trabajo recibir emitir   comunicación
+
+trabajo recibir emitir   comunicación exterior caso emergencia .    campo formulario marcado * carácter obligatorio , caso   completarlo permitir crear / guardar registro plan emergencia .
+
+creado registro plan emergencia habilitar pestaña : Datos Plan ,   Medios protección , Turnos equipo , Directorio externo , punto reunión , Evaluación   amenaza , análisis riesgo , Plan acción Generar documento .   medio protección
+
+usuario acceder pestaño medio protección visualizar listado recurso   Vigentes / vigente disponer centro trabajo responder   situación emergencia . listado opción : buscador , añadir filtro ,   descargar listado , paginado , botón redirigir formulario creación   medio protección , acción :   •   Editar : redirigir ficha registro editar dato protección .   •
+
+registro editar dato protección .   •   Eliminar : permitir eliminar registro independiente registro   ( Vigente / vigente ) .
+
+formulario registro Medios protección dividido apartado .   •   Apartado Datos general : apartado formulario contener   información identificación medio protección .    •   Apartado Información [ categoría ] : apartado formulario variable   función campo “ Categoría ” seleccionado previamente ( Instalación centralizado ,   instalación emergencia , señalización , sistema detección automático , sistema
+
+señalización , sistema detección automático , sistema   extinción ) . Adicional , depender tipo instalación seleccionado , habilitar   campo puesto campo mostrar apartado específico   tipo sistema definido . ejemplo , tipo sistema   extinción “ Extintor portátil ” , mostrar campo : fabricante , importador   marca comercial , fecha fabricación , tipo extintor , clase fuego
+
+tipo extintor , clase fuego   destinar , potencial extinción , etc. ( imagen )    •   apartado Mantenimiento : apartado formulario permitir introducir   información relativo revisión medio protección .   mantenimiento referir periodo definido revisión protección   :    Vigente : fecha próximo revisión fecha   revisión .   vigente : fecha
+
+  revisión .   vigente : fecha próximo revisión menor   fecha revisión .
+
+12   campo formulario marcado * carácter obligatorio , caso   completarlo permitir crear / guardar registro recurso .
+
+usuario acceder pestaña “ Turnos Equipos ” visualizar listado distinto   turno trabajo centro trabajo . , definir equipo   respuesta intervención turno . listado opción :   buscador , añadir filtro , descargar listado , paginado , botón añadir turno redirigir   formulario creación turno , acción :   •   Equipos respuesta intervención : Redirige usuario paso
+
+intervención : Redirige usuario paso asistente   visualizar gestionar equipo respuesta intervención   turno seleccionado .   •   Editar : permitir acceder formulario registro turno , desplegar   ventana lateral .   •   Eliminar : Borra registro turno , equipo respuesta   intervención definido turno .   campo formulario marcado * carácter obligatorio , caso
+
+marcado * carácter obligatorio , caso   completarlo permitir crear / guardar registro turno .
+
+usuario acceder paso asistente “ Equipos respuesta intervención ” ,   previamente definir turno trabajo paso .   pantalla mostrar listado equipo respuesta requerido creado forma   automático ( predefinido normativa ) añadir   equipo modificar nombre , descripción función , forma   usuario únicamente definir
+
+, forma   usuario únicamente definir miembro titular / suplente componer   equipo .    listado opción : buscador , añadir filtro , descargar listado , paginado   acción :   •   Editar : Redirige ventana lateral añadir / desasociar   miembro equipo , seleccionar tipo miembro ( titular suplente ) .
+
+DIRECTORIO externo   usuario acceder pestaña “ Directorio externo ” visualizar listado directorio   servicio externo ( ejemplo : entidad socorro , plan ayuda mutuo cadena   llamada ) contactar caso situación emergencia . listado   opción : buscador , añadir filtro , descargar listado , paginado , botón Añadir
+
+16   redirigir formulario creación servicio , botón Volver redirigir listado   plan emergencia acción editar eliminar .    campo formulario marcado * carácter obligatorio , caso   completarlo permitir crear / guardar registro servicio .
+
+usuario acceder pestaña “ Puntos reunión ” visualizar listado punto   reunión instalación emergencia plan , visualizar mapa distribución   .   listado opción : buscador , añadir filtro , descargar listado , paginado ,   botón Añadir redirigir formulario creación instalación , botón Volver   redirigir listado plan emergencia , acción editar eliminar .
+
+usuario acceder pestaña “ Evaluación amenaza ” visualizar listado amenaza   presente centro trabajo , inicialmente mostrar amenaza   “ Descartada ” . pantalla identificación evaluación   determinar nivel riesgo , descartar amenaza aplicar centro   trabajo .   listado opción : buscador , añadir filtro , paginado , botón Volver ,   acción depender
+
+paginado , botón Volver ,   acción depender amenaza , :   1 . amenaza “ Descartado ” mostrar acción :   •   Identificar : cambiar amenaza Identificado .   •   evaluar : permitir acceder cuestionario evaluación .   2 . amenaza “ Identificado ” mostrar acción :   •   Descartar : cambiar amenaza Descartado . caso   evaluación realizado perder .   •
+
+  evaluación realizado perder .   •   evaluar : permitir acceder cuestionario evaluación .
+
+19   clicar acción Evaluar listado , usuario redirigir formulario evaluación   amenaza deber completar campo obligatorio guardar   evaluación .     formulario permitir guardado parcial evaluación , mostrar   barra grado avance evaluación amenaza . completar   evaluación habilitar botón Finalizar permitir finalizar evaluación amenaza .  
+
+permitir finalizar evaluación amenaza .   finalizado , formulario evaluación editar dato   apartado . cuestionario permitir editar respuesta evaluación .
+
+listado amenaza mostrar botón “ Iniciar vigencia ” existir   amenaza evaluado , amenaza identificado haber evaluar . habilitar   pestaña análisis riesgo documentación .   iniciar vigencia plan cambiar Vigente , adicional bloquear   posibilidad modificar amenaza , identificar / descartar amenaza ,   evaluación realizado quedar editabl .
+
+usuario acceder pestaña “ Análisis riesgo ” mostrar tabla resumen   evaluación amenaza realizado , mostrar puntuación obtenido aspecto   vulnerabilidad color rombo asociado , resultado diamante nivel   riesgo obtenido amenaza . pantalla contener acción usuario ,   únicamente botón “ Volver ” redirigir listado plan emergencia .   pestaña habilitar usuario
+
+emergencia .   pestaña habilitar usuario cambiar plan Vigente .
+
+usuario acceder pestaña “ Plan acción ” visualizar listado medida control   cabo centro trabajo mitigar reducir nivel riesgo   amenaza evaluada . medida generado sistema depender   respuesta momento evaluación , :   •   Pendiente planificar : medida generar respuesta .   •   Pendiente evidencia : medida generar
+
+•   Pendiente evidencia : medida generar respuesta   APLICA .   listado opción : buscador , añadir filtro , descargar listado , paginado ,   botón añadir medida redirigir formulario medida , acción :   •   Editar : permitir acceder formulario medida gestión . (   entendimiento manual flujo gestión medida ) .   •   Eliminar : permitir eliminar medida . acción
+
+permitir eliminar medida . acción disponible   medida añadido manualmente usuario , propuesta sistema .
+
+usuario acceder pestaño “ Generar documento ” visualizar listado informe   generado formato PDF Word , permitir añadir documento .   listado opción : buscador , añadir filtro , paginado , botón Generar informir   permitir generación descarga informe formato mencionado ,   acción eliminar . generar n informe .    informe descargar clicar nombre fichero .
+
+usuario acceder cardboard “ Planificación ” visualizar listado medida   control plan emergencia vigente centro trabajo .   listado usuario gestión medida , añadir   eliminarla . listado opción : buscador , añadir filtro , paginado acción   editar redirigir usuario formulario medida ( entendimiento   manual flujo gestión
+
+entendimiento   manual flujo gestión medida ) .
+
+usuario acceder cardboard “ Simulacros emergencias ” visualizar listado simulacro   situación real emergencia producir empresa   :   •   Pendiente evaluar : completar evaluación situado   pestaña registro .   •   Evaluado : evaluación realizado actividad definido .   listado opción : buscador , añadir filtro , paginado , descargar listado ,   botón
+
+añadir filtro , paginado , descargar listado ,   botón registro redirigir formulario creación , acción editar eliminar .
+
+inicialmente formulario mostrar campo Amenaza , mostrar   completar campo Centro trabajo . campo formulario marcado *   carácter obligatorio . caso completarlo permitir crear / guardar registro   simulacro , simulación emergencia .
+
+creado registro habilitar pestaño “ Evaluación ” , usuario acceder   pestaña visualizar serie cuestionario relativo proceso comunicación , proceso   evacuación respuesta trabajador cabo evaluación simulacro   emergencia .    formulario guardar respuesta evaluación editar   finalizar . clicar finalizar evaluación cuestionario evaluación   mostrar
+
+cuestionario evaluación   mostrar editable habilitar pestaña Actividades mejora generar   documento .
+
+usuario acceder pestaño Actividades mejora visualizar listado actividad   mejora proceso base evaluación realizado previamente .     actividad :   •   Pendiente : inicial crear actividad .   •   Realizada : actividad .
+
+listado opción : buscador , añadir filtro , paginado , descargar listado ,   botón añadir actividad redirigir formulario actividad , acción editar eliminar .   campo formulario marcado * carácter obligatorio , caso   completarlo permitir crear / guardar registro simulacro , simulación emergencia .   marcar switch Realizada habilitar campo fecha realización descripción   evidencia
+
+fecha realización descripción   evidencia cumplimiento .
+
+GENERAR DOCUMENTOS   usuario acceder pestaña visualizar listado informe generado formato pdf   Word . listado opción : buscador , añadir filtro , paginado , botón   generar informe permitir generar descargar informe formato   mencionado , acción eliminar . informe generar n .   informe descargar clicar nombre fichero .
+
+usuario acceder cardboard “ Gestión botiquín ” visualizar listado contener   registro botiquín existente empresa cabo mantenimiento   gestión contenido . listado opción : buscador , añadir filtro ,   descargar listado , paginado , botón “ Añadir ” redirigir formulario creación   botiquín , acción :    •   Editar : permitir acceder registro .   •   Eliminar : Elimina registro botiquín ,
+
+registro .   •   Eliminar : Elimina registro botiquín , independientemente .   botiquín :   •   Vigente : botiquín contener producto caducado .   •   Caducado : botiquín contener producto caducado .
+
+dato BOTIQUÍN   usuario clico “ Añadir ” redirigir formulario botiquín completar   campo requerido . campo contener * campo obligatorio caso   completarlo crear / editar registro .
+
+crear botiquín , habilitar pestaño “ Contenido ” , aparecer listado   producto contener botiquín . listado opción : buscador ,   añadir filtro , descargar listado , paginado , botón “ Añadir producto ” redirigir formulario   creación producto , acción :    •   Editar : permitir acceder registro producto botiquín .   •   Eliminar : Elimina producto botiquín .
