@@ -48,5 +48,9 @@ def chat():
     #         'chat_gpt_answer': langchain_model.predict(query)
     #     })
 
+@app.route('/', methods=['GET'])
+def main():
+    return 'Server working!'
+
 if __name__ == '__main__':
     app.run()
