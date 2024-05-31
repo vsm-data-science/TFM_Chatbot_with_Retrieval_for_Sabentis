@@ -71,5 +71,5 @@ class LangChain:
         averaged_sources = {source: sum(similarities) / len(similarities) for source, similarities in sources_similarities.items()}
         
         formatted_sources = "\n".join([f"- {source}\n  {average:.2f}" for source, average in averaged_sources.items()])
-        formatted_response = f"Respuesta: {self.format_response(ai_message.content)}\nFuentes y Similitud Promedio:\n{formatted_sources}"
+        formatted_response = f"{self.format_response(ai_message.content)}\nFuentes y Similitud Promedio:\n{formatted_sources}"
         return formatted_response
