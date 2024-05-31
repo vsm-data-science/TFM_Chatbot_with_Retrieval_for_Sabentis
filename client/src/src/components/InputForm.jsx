@@ -11,30 +11,33 @@ export function InputForm() {
     defaultValues: { query: "" },
   });
   const onSubmit = async (data) => {
-    setMessages((messages) => [
-      ...messages,
-      { author: AUTHOR_TYPES.USER, body: query },
-    ]);
-    setIsLoading(true);
-    reset();
+    try {
+      setMessages((messages) => [
+        ...messages,
+        { author: AUTHOR_TYPES.USER, body: query },
+      ]);
+      setIsLoading(true);
+      reset();
 
-    const { query } = data;
-    const response = await fetch("http://127.0.0.1:5000/chat", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ query }),
-    });
-    const responseData = await response.json();
+      const { query } = data;
+      const response = await fetch("http://207.154.227.243/chat", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ query }),
+      });
+      const responseData = await response.json();
 
-    setMessages((messages) => [
-      ...messages,
-      { author: AUTHOR_TYPES.BOT, body: responseData["chat_gpt_answer"] },
-    ]);
-    setIsLoading(false);
-
-    // TODO: Add also a message with file name - link to the file.
+      setMessages((messages) => [
+        ...messages,
+        { author: AUTHOR_TYPES.BOT, body: responseData["chat_gpt_answer"] },
+      ]);
+      setIsLoading(false);
+      // TODO: Add also a message with file name - link to the file.
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   return (
