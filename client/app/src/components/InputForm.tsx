@@ -3,6 +3,7 @@ import { useContext, useState } from "react";
 import { Spinner } from "./Spinner";
 import { AUTHOR_TYPES } from "../types";
 import { MessagesContext } from "../context";
+import { sendMessage } from "../actions/sendMessage";
 
 export function InputForm() {
   const [isLoading, setIsLoading] = useState(false);
@@ -10,8 +11,9 @@ export function InputForm() {
   const { register, handleSubmit, reset } = useForm({
     defaultValues: { query: "" },
   });
-  const onSubmit = async (data) => {
+  const onSubmit = async (data: any) => {
     try {
+      const query = data.query;
       setMessages((messages) => [
         ...messages,
         { author: AUTHOR_TYPES.USER, body: query },
@@ -19,25 +21,14 @@ export function InputForm() {
       setIsLoading(true);
       reset();
 
-      const { query } = data;
-      const response = await fetch("http://207.154.227.243/chat", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ query }),
-      });
-      const responseData = await response.json();
+      const newMessage = await sendMessage(query);
+      setMessages((messages) => [...messages, newMessage]);
 
-      setMessages((messages) => [
-        ...messages,
-        { author: AUTHOR_TYPES.BOT, body: responseData["chat_gpt_answer"] },
-      ]);
-      setIsLoading(false);
       // TODO: Add also a message with file name - link to the file.
     } catch (error) {
       console.error(error);
     }
+    setIsLoading(false);
   };
 
   return (

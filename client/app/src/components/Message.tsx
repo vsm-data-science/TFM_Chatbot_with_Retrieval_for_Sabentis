@@ -1,5 +1,5 @@
 import { tv } from "tailwind-variants";
-import { AUTHOR_TYPES } from "../types";
+import { AUTHOR_TYPES, Message as MessageType } from "../types";
 
 const MessageStyleClasses = tv({
   slots: {
@@ -19,7 +19,7 @@ const MessageStyleClasses = tv({
   },
 });
 
-export function Message({ author, body }) {
+export function Message({ author, body }: MessageType) {
   const { container, text } = MessageStyleClasses({ type: author });
   return (
     <div className={container()}>
