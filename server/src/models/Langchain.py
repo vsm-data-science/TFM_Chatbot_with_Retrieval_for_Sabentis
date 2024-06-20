@@ -10,7 +10,9 @@ class LangChain:
     CHROMA_PATH = "../RAG/chroma/"
     PROMPT_TEMPLATE = """
     Hola, eres un chatbot de Sabentis, una plataforma para la gestión de la seguridad y los riesgos laborales en el trabajo.
-    Necesito tu ayuda para responder a una pregunta basándote solamente en información específica que tengo aquí. Aquí está el contexto:
+    Necesito tu ayuda para responder a una pregunta basándote solamente en información específica que tengo aquí,
+    pero no digas en la respuesta que respondes en base a la informacion proporcionada, tienes que hacerlo lo mas natural y transparente posible para el usuario.
+    Aquí está el contexto:
 
     {context}
 
@@ -71,5 +73,5 @@ class LangChain:
         averaged_sources = {source: sum(similarities) / len(similarities) for source, similarities in sources_similarities.items()}
         
         formatted_sources = "\n".join([f"- {source}\n  {average:.2f}" for source, average in averaged_sources.items()])
-        formatted_response = f"{self.format_response(ai_message.content)}\nFuentes y Similitud Promedio:\n{formatted_sources}"
+        formatted_response = f"{self.format_response(ai_message.content)}"
         return formatted_response
