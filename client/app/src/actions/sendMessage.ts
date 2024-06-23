@@ -3,7 +3,7 @@
 import { AUTHOR_TYPES } from "../types";
 
 export async function sendMessage(query: string) {
-  const response = await fetch("http://207.154.227.243/chat", {
+  const response = await fetch("http://46.101.204.250/chat", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
