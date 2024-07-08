@@ -43,44 +43,6 @@ El desarrollo del chatbot de Sabentis aborda la necesidad crítica de optimizar 
 - Docker
 - Git
 
-### Pasos
-
-1. Clonar el repositorio:
-
-    ```bash
-    git clone https://github.com/tuusuario/sabentis-chatbot.git
-    ```
-
-2. Navegar al directorio del proyecto:
-
-    ```bash
-    cd sabentis-chatbot
-    ```
-
-3. Construir y ejecutar el contenedor Docker:
-
-    ```bash
-    docker-compose up --build
-    ```
-
-4. Instalar las librerías de Python necesarias:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Uso
-
-1. Iniciar la aplicación:
-
-    ```bash
-    python app.py
-    ```
-
-2. Abrir el navegador y navegar a `http://localhost:5000` para acceder a la interfaz del chatbot.
-
-3. Interactuar con el chatbot introduciendo consultas relacionadas con SST.
-
 ## Arquitectura
 
 El chatbot utiliza un enfoque de Generación Aumentada por Recuperación (RAG), combinando técnicas de recuperación con modelos de generación de lenguaje para proporcionar respuestas precisas y contextualmente relevantes. El sistema está diseñado para manejar la documentación dinámica y extensa proporcionada por Sabentis.
