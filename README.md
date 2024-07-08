@@ -7,15 +7,11 @@
 1. [Introducción](#introducción)
 2. [Justificación del Proyecto](#justificación-del-proyecto)
 3. [Objetivos](#objetivos)
-4. [Instalación](#instalación)
-5. [Uso](#uso)
-6. [Arquitectura](#arquitectura)
-7. [Librerías y Herramientas Utilizadas](#librerías-y-herramientas-utilizadas)
-8. [Metodología](#metodología)
-9. [Equipo](#equipo)
-10. [Contribuciones](#contribuciones)
-11. [Licencia](#licencia)
-12. [Contacto](#contacto)
+4. [Arquitectura](#arquitectura)
+5. [Librerías y Herramientas Utilizadas](#librerías-y-herramientas-utilizadas)
+6. [Metodología](#metodología)
+7. [Equipo](#equipo)
+8. [Licencia](#licencia)
 
 ---
 
@@ -34,8 +30,6 @@ El desarrollo del chatbot de Sabentis aborda la necesidad crítica de optimizar 
 3. **Reducir Riesgos Laborales:** Mejorar la comunicación del usuario con el sistema de gestión de SST para una identificación y gestión de riesgos más rápida.
 4. **Incrementar la Satisfacción del Cliente:** Proporcionar respuestas rápidas y personalizadas para mejorar la experiencia del usuario.
 5. **Impacto a Nivel de Negocio:** Aumentar la competitividad de Sabentis mediante la adopción de tecnologías avanzadas.
-
-## Instalación
 
 ### Requisitos Previos
 
