@@ -1,4 +1,4 @@
-# Chatbot de Sabentis Basado en Recuperación
+# Chatbot basado en Retrieval para la plataforma de Sabentis
 
 ---
 
